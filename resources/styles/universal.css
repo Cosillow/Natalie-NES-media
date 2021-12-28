@@ -1,5 +1,9 @@
 :root {
   --clr-accent: rgb(111, 111, 235);
+  --clr-dark: black;
+  --clr-light: white;
+
+  --header-height: 75px;
 }
 
 *,
@@ -16,16 +20,14 @@ body, html {
 }
 
 /* header styling */
-
 header {
-  --height: 75px;
   --navlogo-size: 200px;
 
   /* background: rgb(169, 169, 236); */
-  width: 100vw;
-  height: var(--height);
+  width: 100%;
+  height: var(--header-height);
   margin: 0;
-  position: fixed;
+  position: sticky;
   border-bottom: 1px solid var(--clr-accent);
 }
 
@@ -48,10 +50,6 @@ header ul {
 }
 
 #menu {
-  /* position: absolute;
-  bottom: 0;
-  top: 0;
-  right: 0; */
   display: inline-block;
   width: 100%;
 }
@@ -60,19 +58,15 @@ header ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: calc(var(--navlogo-size) * -1);
   align-items: center;
-  width: calc(100% + var(--navlogo-size));
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
-/* #menu li + li a{
-  padding-left: 1em;
-} */
-
 #menu a, #menu li {
-  /* width: 100%; */
   width: max-content;
-  line-height: var(--height);
+  line-height: var(--header-height);
   text-align: center;
   display: inline-block;
 }
@@ -81,4 +75,16 @@ header ul {
   text-decoration: none;
   color: var(--clr-accent);
   padding: 0 1em;
+}
+
+
+/* universal classes */
+.card {
+ --width: 80%;
+
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  width: var(--width);
+  margin-left: calc((100% - var(--width)) / 2);
+  padding: 5em;
 }

@@ -1,0 +1,24 @@
+#hero-section {
+  min-height: calc(100vh - var(--header-height));
+}
+
+#logo-hero {
+  width: 500px;
+}
+
+#hero-card {
+  margin-top: 60px;
+  background-image: url("../img/sunset.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-section h1 {
+  text-align: center;
+}
+
+#hero-section h1 span + span {
+  margin-left: 2em;
+}
+
