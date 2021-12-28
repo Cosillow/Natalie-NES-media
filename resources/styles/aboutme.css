@@ -1,0 +1,41 @@
+#cutout-container {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+#cutout-container:hover {
+  animation: bubble 10s ease-in-out 0s infinite alternate;
+}
+
+#bubble {
+  background: orange;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  /* box-shadow: 5px 5px 10px 2px; */
+}
+
+#cutout {
+  width: 100%;
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+@keyframes bubble {
+  0% { transform: translate(0px, 0px)  }
+  10% { transform: translate(-1px, -2px) ; }
+  20% { transform: translate(-3px, 0px)  }
+  30% { transform: translate(3px, 2px)  }
+  40% { transform: translate(1px, -1px)  }
+  50% { transform: translate(-1px, 2px) ; }
+  60% { transform: translate(-3px, 1px)  }
+  70% { transform: translate(3px, 1px) ; }
+  80% { transform: translate(-1px, -1px)  }
+  90% { transform: translate(1px, 2px)  }
+  100% { transform: translate(1px, -2px) ; }
+}

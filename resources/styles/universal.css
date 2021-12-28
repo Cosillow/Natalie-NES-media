@@ -1,0 +1,84 @@
+:root {
+  --clr-accent: rgb(111, 111, 235);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* header styling */
+
+header {
+  --height: 75px;
+  --navlogo-size: 200px;
+
+  /* background: rgb(169, 169, 236); */
+  width: 100vw;
+  height: var(--height);
+  margin: 0;
+  position: fixed;
+  border-bottom: 1px solid var(--clr-accent);
+}
+
+#nav-logo {
+  width: var(--navlogo-size);
+  padding-top: 14px;
+  cursor: pointer;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+}
+
+#menu {
+  /* position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0; */
+  display: inline-block;
+  width: 100%;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: calc(var(--navlogo-size) * -1);
+  align-items: center;
+  width: calc(100% + var(--navlogo-size));
+}
+
+/* #menu li + li a{
+  padding-left: 1em;
+} */
+
+#menu a, #menu li {
+  /* width: 100%; */
+  width: max-content;
+  line-height: var(--height);
+  text-align: center;
+  display: inline-block;
+}
+
+#menu a {
+  text-decoration: none;
+  color: var(--clr-accent);
+  padding: 0 1em;
+}
