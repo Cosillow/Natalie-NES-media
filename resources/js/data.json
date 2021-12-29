@@ -2,5 +2,10 @@
   "header":
     {
       "nav-logo" : "./resources/img/logo-dark.png", "home" : "./index.html", "about me" : "./aboutme.html", "promos" : "./promos.html", "photography" : "./photography.html", "weddings" : "./weddings.html"
+    },
+
+  "footer":
+    {
+      "socials": [{"handle": "nes.media", "link": "#", "icon": "fab fa-tiktok"}, {"handle": "nes.media", "link": "#", "icon": "fab fa-instagram"}, {"handle": "nes.media", "link": "#", "icon": "fab fa-twitter"}]
     }
 }
