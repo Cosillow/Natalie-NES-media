@@ -75,6 +75,11 @@ $(document).ready(function() { // after everything in html loads
       nav.append(ul);
       var footer = document.createElement('footer');
       footer.append(nav);
+      // create heading
+      var h2 = document.createElement('h2');
+      h2.innerHTML = "Contact Me";
+      h2.id = "footer-heading";
+      footer.prepend(h2);
       document.body.append(footer);
     }, error: function(msg) {
       alert("There was a problem: " + msg.status + " " + msg.statusText);

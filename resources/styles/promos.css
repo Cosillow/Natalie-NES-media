@@ -1,0 +1,18 @@
+#promos-section {
+  min-height: calc(100vh - var(--header-height));
+}
+
+#videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+#videos > .size {
+  flex-basis: 40%;
+}
+
+.size {
+  
+}

@@ -1,41 +1,54 @@
-#cutout-container {
-  height: 200px;
-  width: 200px;
+#about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - var(--header-height));
+
   position: relative;
-  margin-top: 200px;
-  margin-left: 100px;
 }
 
-#cutout-container:hover {
-  animation: bubble 10s ease-in-out 0s infinite alternate;
+h1 {
+  margin-bottom: 30px;
+  font-weight: var(--weight-sans-bold);
+  font-size: 30px;
 }
 
-#bubble {
-  background: orange;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  display: inline-block;
-  /* box-shadow: 5px 5px 10px 2px; */
+#info {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  position: relative;
+  top: 0;
+  bottom: 0;
+
+  --padding-middle: 2em;
 }
 
-#cutout {
-  width: 100%;
-  position: absolute;
-  top: -30px;
-  right: 0;
+#info > div {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  /* justify-content: center; */
 }
 
-@keyframes bubble {
-  0% { transform: translate(0px, 0px)  }
-  10% { transform: translate(-1px, -2px) ; }
-  20% { transform: translate(-3px, 0px)  }
-  30% { transform: translate(3px, 2px)  }
-  40% { transform: translate(1px, -1px)  }
-  50% { transform: translate(-1px, 2px) ; }
-  60% { transform: translate(-3px, 1px)  }
-  70% { transform: translate(3px, 1px) ; }
-  80% { transform: translate(-1px, -1px)  }
-  90% { transform: translate(1px, 2px)  }
-  100% { transform: translate(1px, -2px) ; }
+#info > :nth-child(1) {
+  justify-content: right;
+  padding-right: var(--padding-middle);;
+}
+
+#info > :nth-child(2) {
+  justify-content: left;
+  padding-left: var(--padding-middle);;
+}
+
+#natalie-photo {
+  max-width: 300px;
+  height: auto;
+  max-height: 390px;
+  box-shadow: 15px -15px 5px -11px rgb(105, 105, 189), -15px 15px 5px -11px rgb(194, 137, 194);
+}
+
+#description {
+  max-width: 300px;
 }
