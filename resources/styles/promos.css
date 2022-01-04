@@ -2,17 +2,27 @@
   min-height: calc(100vh - var(--header-height));
 }
 
+h1 {
+  margin-bottom: 30px;
+  font-weight: var(--weight-sans-bold);
+  font-size: 30px;
+  text-align: center;
+}
+
 #videos {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 30px;
-}
-
-#videos > .size {
-  flex-basis: 40%;
+  justify-content: space-evenly;
+  /* gap: 30px; */
 }
 
 .size {
-  
+  flex-basis: 40%;
+}
+
+#description {
+  /* padding is based on the flex basis 40% in .size */
+  padding: 0 13.333%;
+  margin-top: 50px;
+  text-align: center;
 }
