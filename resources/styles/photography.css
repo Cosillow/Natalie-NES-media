@@ -1,0 +1,147 @@
+/* #photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  flex-direction: row;
+}
+
+.row {
+  flex: 33.333%;
+  max-width: 33.333%;
+  padding: 0 4px;
+}
+
+.row > img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+} */
+
+#gallery {
+  min-height: calc(100vh - var(--header-height));
+}
+
+h1 {
+  text-align: center;
+}
+
+#photo-grid {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+}
+
+/* #photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#photo-grid > img {
+
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  flex-grow: 1;
+  height: 40%;
+} */
+
+#photo-grid > img {
+  /* border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%; */
+}
+
+#pricing {
+  min-height: 100vh;
+}
+
+#see-pricing {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 50%;
+  left: calc( 25% / 4);
+  transform: translateX(-50%);
+  display: inline-block;
+  /* width: 100px; */
+  z-index: 98;
+  display: block;
+
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: var(--clr-light);
+  padding: 1em;
+  text-align: center;
+  color: var(--clr-accent);
+  border: 2px solid var(--clr-accent);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#see-pricing:hover {
+  opacity: .7;
+}
+
+#see-pricing > i {
+  display: block;
+}
+
+
+/* pricing */
+#pricing-list {
+  --border-color: var(--clr-accent);
+
+  padding: 0;
+  margin: 0;
+  width: 75%;
+  border-collapse: collapse;
+  border: 1px solid var(--border-color);
+}
+
+tr {
+  border: 1px solid var(--border-color);
+}
+
+th, td {
+  padding: 2em;
+}
+
+.title {
+  text-align: left;
+}
+
+.number-photos {
+
+}
+
+.price {
+
+}
+
+#description, h2 {
+  text-align: center;
+  position: relative;
+}
+
+#description {
+  --margin-top: 80px;
+  margin-top: var(--margin-top);
+}
+
+#description::before {
+  content: '';
+  height: 0px;
+  width: 50%;
+  border-top: 2px dotted var(--clr-accent);
+  /* border-bottom: 2px groove rgb(194, 109, 109); */
+  position: absolute;
+  top: calc(-1 * var(--margin-top) / 2 );
+  left: 50%;
+  transform: translateX(-50%);
+}

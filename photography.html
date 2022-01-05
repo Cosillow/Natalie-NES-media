@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photography</title>
   <link rel="stylesheet" href="./resources/styles/universal.css">
-  <link rel="stylesheet" href="./resources/styles/weddings.css">
+  <link rel="stylesheet" href="./resources/styles/photography.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="./resources/js/universal.js"></script>
 </head>
@@ -14,18 +14,45 @@
 <body>
   <section id="gallery">
     <h1>Photography</h1>
-    <div id="photo-grid">
-      <img src="./resources/img/sunset.jpg" alt="">
-      <img src="./resources/img/natalie_photo.JPG" alt="">
-      <img src="./resources/img/logo-dark.png" alt="">
-      <img src="./resources/img/natalie_photo.JPG" alt="">
-      <img src="./resources/img/sunset.jpg" alt="">
-      <img src="./resources/img/logo-dark.png" alt="">
-      <img src="./resources/img/logo-dark.png" alt="">
-      <img src="./resources/img/natalie_photo.JPG" alt="">
-      <img src="./resources/img/sunset.jpg" alt="">
-      <img src="./resources/img/logo-dark.png" alt="">
+    <button id="see-pricing" onclick="document.location='#pricing'"><i class="fas fa-chevron-down"></i></button> 
+    <div class="center-child">
+      <div id="photo-grid">
+        <img src="./resources/img/sunset.jpg" alt="">
+        <img src="./resources/img/natalie_photo.JPG" alt="">
+        <img src="./resources/img/logo-dark.png" alt="">
+        <img src="./resources/img/natalie_photo.JPG" alt="">
+        <img src="./resources/img/sunset.jpg" alt="">
+        <img src="./resources/img/logo-dark.png" alt="">
+        <img src="./resources/img/logo-dark.png" alt="">
+        <img src="./resources/img/natalie_photo.JPG" alt="">
+        <img src="./resources/img/sunset.jpg" alt="">
+        <img src="./resources/img/logo-dark.png" alt="">
+      </div>
     </div>
+  </section>
+  <section id="pricing">
+    <div class="header-spacer"></div>
+    <h2>Pricing</h2>
+    <div class="center-child">
+      <table id="pricing-list">
+        <tr>
+          <th class="title">15 Minute Power Session</th>
+          <td class="number-photos">approx. 40 photos</td>
+          <td class="price">$50.00</td>
+        </tr>
+        <tr>
+          <th class="title">30 Minute Half Session</th>
+          <td class="number-photos">approx. 80 photos</td>
+          <td class="price">$75.00</td>
+        </tr>
+        <tr>
+          <th class="title">60 Minute Full Session</th>
+          <td class="number-photos">approx. 160+ photos</td>
+          <td class="price">$100.00</td>
+        </tr>
+      </table>
+    </div>
+    <p id="description">All packages include raw and edited versions of all photos.</br>Contact for quotes on special events such as weddings and engagements.</br>Please refer to the <a href="./aboutme.html">About Me</a> page for quotes on special events such as weddings and engagements</p>
   </section>
 </body>
 </html>
