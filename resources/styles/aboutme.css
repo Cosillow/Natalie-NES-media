@@ -46,7 +46,7 @@ h1 {
   max-width: 300px;
   height: auto;
   max-height: 390px;
-  box-shadow: 15px -15px 5px -11px rgb(105, 105, 189), -15px 15px 5px -11px rgb(194, 137, 194);
+  box-shadow: 15px -15px 5px -11px var(--clr-accent), -15px 15px 5px -11px var(--clr-accent-secondary);
 }
 
 #description {

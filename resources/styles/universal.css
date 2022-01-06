@@ -2,6 +2,7 @@
 
 :root {
   --clr-accent: rgb(111, 111, 235);
+  --clr-accent-secondary: rgb(194, 90, 194);
   --clr-dark: black;
   --clr-light: white;
 
@@ -204,4 +205,78 @@ iframe {
   align-items: center;
   position: relative;
   width: 100%;
+}
+
+.tooltip:before {
+  content: 'tooltip';
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--clr-accent);
+  color: var(--clr-light);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  width: 120px;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  position: absolute;
+  z-index: 1;
+
+  opacity: .7;
+}
+
+.tooltip:after {
+  content: " ";
+  position: absolute;
+  top: -10px; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--clr-accent) transparent transparent transparent;
+  visibility: hidden;
+
+  opacity: .7;
+}
+
+.tooltip:hover:before, .tooltip:hover:after {
+  visibility: visible;
+}
+
+table {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+tr {
+  border: 1.5px solid var(--border-color);
+}
+
+th, td {
+  padding: 2em;
+}
+
+.dotted-separator {
+  --margin-top: 100px;
+  margin-top: var(--margin-top);
+  position: relative;
+}
+
+.dotted-separator::before {
+  content: '';
+  height: 0px;
+  width: 50%;
+  border-top: 2px dotted var(--clr-accent);
+  /* border-bottom: 2px groove rgb(194, 109, 109); */
+  position: absolute;
+  top: calc(-1 * var(--margin-top) / 2 );
+  left: 50%;
+  transform: translateX(-50%);
 }

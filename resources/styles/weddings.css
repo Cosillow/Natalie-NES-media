@@ -1,0 +1,41 @@
+#hero {
+  background-image: url("../img/natalie_photo.JPG");
+  background-attachment: fixed;
+  background-position: 0 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - var(--header-height));
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding: 1em 3em;
+  margin: 0;
+  border: 5px solid var(--clr-light);
+  color: var(--clr-light);
+  border-radius: 100vw;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#pricing summary {
+  /* --margin-top: 100px; */
+  margin-top: var(--margin-top);
+  text-align: center;
+  padding: 0 15%;
+}
+
+summary br {
+  margin-bottom: 10px;
+}
+
+#price-table {
+  --border-color: var(--clr-accent);
+  margin: 0 auto;
+}
