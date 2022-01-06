@@ -19,6 +19,27 @@ h1 {
   border-radius: 100vw;
 }
 
+/* videos */
+#video-section {
+  min-height: calc(100vh - var(--header-height));
+}
+
+#videos {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* gap: 50px; */
+}
+
+.size {
+  margin-bottom: 50px;
+  flex-basis: 40%;
+  min-width: 200px;
+}
+
+/* pricing */
 h2 {
   text-align: center;
   margin-top: 50px;
