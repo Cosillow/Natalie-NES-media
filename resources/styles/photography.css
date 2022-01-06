@@ -14,6 +14,10 @@ h1 {
   align-items: center;
 }
 
+#photo-grid > img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
 #pricing {
   min-height: 100vh;
 }
