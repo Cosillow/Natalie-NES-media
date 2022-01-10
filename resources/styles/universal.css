@@ -55,6 +55,7 @@ header {
 
 #nav-logo {
   width: var(--navlogo-size);
+  max-width: var(--navlogo-size);
   padding-top: 14px;
   cursor: pointer;
   position: relative;
@@ -71,6 +72,10 @@ header ul {
   padding: 0;
   list-style: none;
   height: 100%;
+}
+
+#hamburger-button {
+  display: none;
 }
 
 #menu {
@@ -99,6 +104,50 @@ header ul {
   text-decoration: none;
   color: var(--clr-accent);
   padding: 0 1em;
+}
+
+@media all and (max-width: 1080px) {
+  /* change menu positioning for semi-small screen sizes */
+  #menu ul {
+    left: var(--navlogo-size)
+  }
+}
+
+@media all and (max-width: 760px) {
+  /* display modal button and allow for modal */
+  #hamburger-button {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+  }
+
+  #menu ul {
+    display: none;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    min-height: 80vh;
+    width: 400px;
+    border: 2px solid var(--clr-accent);
+    background: var(--clr-light);
+    z-index: 999;
+
+    /* flex styling for when modal is active */
+    flex-direction: column;
+  }
+
+  #menu ul:before {
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: rgba(109, 109, 109, 0.301);
+    z-index: -1;
+  }
 }
 
 /* footer stlyling */
@@ -165,16 +214,6 @@ footer nav {
 }
 
 /* universal classes */
-.card {
- --side: 80%;
-
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
-  width: var(--side);
-  height: var(--side);
-  padding: 5em;
-}
-
 .iframe-container {
   box-sizing: content-box;
   position: relative;

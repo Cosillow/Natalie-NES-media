@@ -46,6 +46,13 @@ $(document).ready(function() { // after everything in html loads
         }
       });
       liCon.append(ul2);
+      // hambuger button
+      var ham = document.createElement('button');
+      ham.id = "hamburger-button";
+      ham.addEventListener("click", function() {
+        ul2.style.display = "flex";
+      });
+      liCon.prepend(ham);
       ul.append(liCon);
       var nav = document.createElement("nav");
       var header = document.createElement("header");
