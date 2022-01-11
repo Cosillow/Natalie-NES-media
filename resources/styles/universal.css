@@ -139,15 +139,15 @@ header ul {
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    min-height: 80vh;
-    width: 400px;
+    height: max(410px, 60vh);
+    width: max(305px, 60vw);
     border: 2px solid var(--clr-accent);
     background: var(--clr-light);
     z-index: 999;
 
     /* "blur" outside of the modal (actually darken) */
-    -webkit-box-shadow: 0px 0px 0px 100vh #0000003f; 
-    box-shadow: 0px 0px 0px 100vh #00000069;
+    -webkit-box-shadow: 0px 0px 0px 100vh #00000083; 
+    box-shadow: 0px 0px 0px 100vh #00000083;
     /* flex styling for when modal is active */
     flex-direction: column;
   }
