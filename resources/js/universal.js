@@ -26,6 +26,16 @@ $(document).ready(function() { // after everything in html loads
       var liCon = document.createElement("li");
       liCon.id = "menu";
       var ul2 = document.createElement("ul");
+      // add button to close modal (mobile only)
+      var closeLi = document.createElement('li');
+      var closeBt = document.createElement('button');
+      closeBt.innerHTML = "&times;";
+      closeBt.id = "close-modal";
+      closeBt.addEventListener("click", function() {
+        ul2.style.display = "none";
+      });
+      closeLi.append(closeBt);
+      ul2.prepend(closeLi);
       $.each(responseData.header, function(key, value) { // add internal navagation links to header
         var li = document.createElement("li");
         if (key === "nav-logo") {
@@ -49,6 +59,9 @@ $(document).ready(function() { // after everything in html loads
       // hambuger button
       var ham = document.createElement('button');
       ham.id = "hamburger-button";
+      var hamIcon = document.createElement('i');
+      hamIcon.className = "fas fa-bars";
+      ham.append(hamIcon);
       ham.addEventListener("click", function() {
         ul2.style.display = "flex";
       });

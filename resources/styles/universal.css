@@ -78,6 +78,10 @@ header ul {
   display: none;
 }
 
+#close-modal {
+  display: none;
+}
+
 #menu {
   display: inline-block;
   width: 100%;
@@ -106,6 +110,10 @@ header ul {
   padding: 0 1em;
 }
 
+#menu a:hover {
+  text-decoration: underline;
+}
+
 @media all and (max-width: 1080px) {
   /* change menu positioning for semi-small screen sizes */
   #menu ul {
@@ -122,6 +130,7 @@ header ul {
     top: 50%;
     transform: translateY(-50%);
     z-index: 99;
+    font-size: 20px;
   }
 
   #menu ul {
@@ -136,18 +145,39 @@ header ul {
     background: var(--clr-light);
     z-index: 999;
 
+    /* "blur" outside of the modal (actually darken) */
+    -webkit-box-shadow: 0px 0px 0px 100vh #0000003f; 
+    box-shadow: 0px 0px 0px 100vh #00000069;
     /* flex styling for when modal is active */
     flex-direction: column;
   }
 
-  #menu ul:before {
+  #close-modal {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 25px;
+  }
+
+  #close-modal, #hamburger-button {
+    background: none;
+    border: none;
+    color: var(--clr-accent);
+  }
+
+  #close-modal:hover, #hamburger-button:hover {
+    opacity: .8;
+  }
+
+  /* #menu ul:before {
     content: '';
     height: 100vh;
     width: 100vw;
     position: absolute;
     background: rgba(109, 109, 109, 0.301);
     z-index: -1;
-  }
+  } */
 }
 
 /* footer stlyling */
@@ -193,16 +223,22 @@ footer nav {
   margin: 0;
   display: flex;
   flex-direction: row;
-
-  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: center;
+  /* margin-top: 20px; */
 }
 
 .social-link {
   color: var(--clr-accent);
 }
 
-.social-list + .social-list {
-  margin-left: 2em;
+.social-list {
+  margin: 0 1em;
+}
+
+.social-list {
+  margin-top: 20px;
 }
 
 .social-link {
@@ -211,6 +247,16 @@ footer nav {
 
 .social-link > span {
   margin-left: 1ch;
+}
+
+@media all and (max-width: 400px) {
+  /* odd social media behavior at small screen sizes */
+  #social-list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4em;
+  }
 }
 
 /* universal classes */
@@ -318,4 +364,8 @@ th, td {
   top: calc(-1 * var(--margin-top) / 2 );
   left: 50%;
   transform: translateX(-50%);
+}
+
+button {
+  cursor: pointer;
 }

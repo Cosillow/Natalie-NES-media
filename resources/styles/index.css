@@ -14,11 +14,11 @@
 
 #logo-hero {
   width: 500px;
+  max-width: 500px;
 }
 
 #hero-card {
   color: var(--clr-light);
-  padding: 5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,10 +27,36 @@
 
 #hero-section h1 {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   font-weight: var(--weight-sans-bold);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#hero-section h1 span + span {
-  margin-left: 2em;
+#hero-section h1 span {
+  margin: 0 1em;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 550px) {
+  #hero-section h1 {
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  #hero-section h1 span {
+    margin-top: 50px;
+  }
+
+  #logo-hero {
+    width: 80%;
+    max-width: 75%;
+  }
+
+  #hero-section {
+    background-position: 20%;
+  }
 }
