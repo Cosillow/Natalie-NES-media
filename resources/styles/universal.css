@@ -56,7 +56,7 @@ header {
 #nav-logo {
   width: var(--navlogo-size);
   max-width: var(--navlogo-size);
-  padding-top: 14px;
+  padding-top: 10px;
   cursor: pointer;
   position: relative;
   z-index: 1;
