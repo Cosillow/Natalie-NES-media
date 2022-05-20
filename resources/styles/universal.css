@@ -114,7 +114,7 @@ header ul {
 }
 
 #menu a:hover {
-  text-decoration: underline;
+  text-shadow: 1px 1px 1px var(--clr-accent)
 }
 
 @media all and (max-width: 1080px) {
