@@ -106,6 +106,7 @@ header ul {
 
 #menu a {
   text-decoration: none;
+  text-transform: uppercase;
   color: var(--clr-accent);
   padding: 0 1em;
 }
