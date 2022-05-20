@@ -107,7 +107,8 @@ header ul {
 
 #menu a {
   text-decoration: none;
-  text-shadow: 1px 1px 1px var(--clr-accent-secondary)1px -1px 1px var(--clr-accent);
+  text-shadow: 1px 1px 1px var(--clr-accent-secondary);
+  text-shadow: -1px -1px -1px var(--clr-accent);
   text-transform:uppercase;
   color: black;
   padding: 0 1em;
