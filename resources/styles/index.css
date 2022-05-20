@@ -28,7 +28,7 @@
 #hero-section h1 {
   text-align: center;
   margin-top: 40px;
-  font-weight: var(--weight-sans-bold);
+  font-weight: var(--weight-nunito-bold);
 
   display: flex;
   flex-direction: row;
