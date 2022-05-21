@@ -29,8 +29,8 @@ body, html {
 body {
   min-height: 100vh;
   position: relative;
-  font-family: var(--font-sans);
-  font-weight: var(--weight-sans-regular);
+  font-family: var(--font-nunito);
+  font-weight: var(--weight-nunito-regular);
 }
 
 img {
