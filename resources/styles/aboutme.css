@@ -9,7 +9,8 @@
 
 h1 {
   margin-bottom: 30px;
-  font-weight: var(--weight-nunito-bold);
+  font-weight: var(--weight-nunito);
+  text-transform: uppercase;
   font-size: 30px;
 }
 
