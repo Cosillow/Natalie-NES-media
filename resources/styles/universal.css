@@ -94,7 +94,7 @@ header ul {
   position: absolute;
   left: 0;
   right: 0;
-  top: auto;
+  top: 5;
 }
 
 #menu a, #menu li {
