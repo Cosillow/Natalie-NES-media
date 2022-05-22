@@ -47,7 +47,7 @@ header {
   height: var(--header-height);
   margin: 0;
   position: sticky;
-  top: 3;
+  top: 0;
   z-index: 999;
 }
 
@@ -67,8 +67,8 @@ header > nav > ul {
 }
 
 header ul {
-  margin: 10;
-  padding: 10;
+  margin: 0;
+  padding: 20;
   list-style: none;
   height: 100%;
 }
@@ -183,7 +183,7 @@ header ul {
 
 /* footer stlyling */
 footer {
-  --footer-height: 300px;
+  --footer-height: 0px;
 
   position: absolute;
   bottom: calc(-1 * var(--footer-height));
