@@ -200,7 +200,7 @@ footer::before {
   position: absolute;
   right: 50%;
   transform: translateX(50%);
-  background: var(--clr-accent);
+
   
   top: 30px;
 }
