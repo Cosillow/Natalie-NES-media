@@ -137,7 +137,7 @@ header ul {
   #menu ul {
     display: none;
     position: absolute;
-    top: 50vh;
+    top: 100vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     height: max(410px, 60vh);
