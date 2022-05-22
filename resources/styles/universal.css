@@ -35,6 +35,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  max-height: max-content;
 }
 
 /* header styling */
