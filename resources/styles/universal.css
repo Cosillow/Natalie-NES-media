@@ -140,7 +140,7 @@ header ul {
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    height: max(410px, 60vh);
+    height: max(210px, 50vh);
     width: max(305px, 60vw);
     border: 2px solid var(--clr-accent);
     background: var(--clr-light);
