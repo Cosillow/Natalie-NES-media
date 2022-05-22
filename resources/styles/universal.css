@@ -108,7 +108,7 @@ header ul {
   text-shadow: 1px 1px 1px var(--clr-accent-secondary);
   text-transform:uppercase;
   color: black;
-  padding: 0 1em;
+  padding: 2 1em;
 }
 
 #menu a:hover {
