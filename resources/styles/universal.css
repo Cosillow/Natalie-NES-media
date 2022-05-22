@@ -47,7 +47,7 @@ header {
   height: var(--header-height);
   margin: 0;
   position: sticky;
-  top: 0;
+  top: 3;
   z-index: 999;
 }
 
@@ -108,7 +108,7 @@ header ul {
   text-shadow: 1px 1px 1px var(--clr-accent-secondary);
   text-transform:uppercase;
   color: black;
-  padding: 2 1em;
+  padding: 0 1em;
 }
 
 #menu a:hover {
@@ -137,7 +137,7 @@ header ul {
   #menu ul {
     display: none;
     position: absolute;
-    top: 100vh;
+    top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     height: max(410px, 60vh);
