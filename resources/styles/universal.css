@@ -47,8 +47,6 @@ header {
   margin: 0;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid var(--clr-accent);
-  background: var(--clr-light);
   z-index: 999;
 }
 
