@@ -185,7 +185,7 @@ header ul {
 
 /* footer stlyling */
 footer {
-  --footer-height: 0px;
+  --footer-height: 10px;
 
   position: absolute;
   bottom: calc(-1 * var(--footer-height));
@@ -209,10 +209,10 @@ footer::before {
 
 #footer-heading {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   text-shadow:1px 1px 1px var(--clr-accent) ;
-  margin-top: 100px;
-  font-weight: var(--weight-nunito-bold);
+  margin-top: 80px;
+  font-weight: var(--weight-nunito-light);
   text-transform: uppercase;
 
 }
