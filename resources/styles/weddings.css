@@ -1,15 +1,19 @@
 body {
   background-image: url("../img/lacebackground.jpg");
-}
 
-h1 {
-  padding: 1em 3em;
-  margin: 0;
-  background: var(--clr-light);
-  border: 2px solid var(--clr-accent);
-  color: var(--clr-accent);
-  border-radius: 100vw;
+
+#logo-hero {
+  width: 500px;
+  max-width: 500px;
 }
+h1 {
+    margin-bottom: 30px;
+    font-weight: var(--weight-nunito);
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+
 
 /* videos */
 #video-section {
