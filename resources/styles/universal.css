@@ -88,14 +88,14 @@ header ul {
 }
 
 #menu ul {
-  display: flex;
+  display: absolute;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   position: absolute;
   left: 0;
   right: 0;
-  top: 5;
+  top: 235px;
 }
 
 #menu a, #menu li {
