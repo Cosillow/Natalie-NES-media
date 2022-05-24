@@ -141,7 +141,7 @@ header ul {
     position: fixed;
     top: 50vh;
     left: 50vw;
-    transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
     height: max(305px, 50vh);
     width: max(305px, 60vw);
     border: 2px solid var(--clr-accent);
