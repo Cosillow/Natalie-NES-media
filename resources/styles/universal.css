@@ -240,7 +240,7 @@ footer nav {
 }
 
 .social-list {
-  margin: 0 1em;
+  margin: 3px;
 }
 
 .social-list {
@@ -354,23 +354,6 @@ th, td {
   padding: 2em;
 }
 
-.dotted-separator {
-  --margin-top: 100px;
-  margin-top: var(--margin-top);
-  position: relative;
-}
-
-.dotted-separator::before {
-  content: '';
-  height: 0px;
-  width: 50%;
-  border-top: 2px dotted var(--clr-accent);
-  /* border-bottom: 2px groove rgb(194, 109, 109); */
-  position: absolute;
-  top: calc(-1 * var(--margin-top) / 2 );
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 button {
   cursor: pointer;
