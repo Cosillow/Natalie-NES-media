@@ -6,6 +6,6 @@
 
   "footer":
     {
-      "socials": [{"handle": "nes.media", "link": "#", "icon": "fab fa-tiktok"}, {"handle": "n.e.s.media", "link": "#", "icon": "fab fa-instagram"}, {"handle": "nes_media_", "link": "#", "icon": "fab fa-twitter"}, {"handle": "603.809.0665", "link": "#", "icon": "fas fa-phone"}, {"handle": "nataliesheehy10@gmail.com", "link": "#", "icon": "fas fa-envelope"}]
+      "socials": [{"handle": "nes.media", "link": "#", "icon": "fab fa-tiktok"}, {"handle": "n.e.s.media", "link": "#", "icon": "fab fa-instagram"}, {"handle": "nes_media_", "link": "#", "icon": "fab fa-twitter"}, {"handle": "603.809.0665", "link": "#", "icon": "fas fa-phone"}, {"handle": "nes.media.llc@gmail.com", "link": "#", "icon": "fas fa-envelope"}]
     }
 }
