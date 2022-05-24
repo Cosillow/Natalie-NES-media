@@ -64,6 +64,7 @@ header {
 }
 
 header > nav > ul {
+  margin-top: auto;
   display: flex;
   flex-direction: row;
 }
