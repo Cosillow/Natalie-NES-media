@@ -1,6 +1,4 @@
-#demo {
-  background: #D0E4F5 url("https://wallpaperaccess.com/full/3862774.jpg") no-repeat local 10px 7px;
-  }
+
 
 h1 {
   padding: 1em 3em;
@@ -10,6 +8,8 @@ h1 {
   border: 2px solid var(--clr-accent);
   color: var(--clr-accent);
   border-radius: 100vw;
+  background: #D0E4F5 url("https://wallpaperaccess.com/full/3862774.jpg") no-repeat local 10px 7px;
+  
 }
 
 /* videos */
