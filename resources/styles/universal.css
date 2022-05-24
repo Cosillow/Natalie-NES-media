@@ -7,6 +7,7 @@
   --clr-light: white;
 
   --font-nunito: 'Nunito';
+  --weight-nunito-light: 100;
   --weight-nunito-regular: 400;
   --weight-nunito-bold: 700;
 
@@ -29,7 +30,7 @@ body {
   min-height: 100vh;
   position: relative;
   font-family: var(--font-nunito);
-  font-weight: var(--weight-nunito-regular);
+  font-weight: var(--weight-nunito-light);
 }
 
 img {
@@ -47,7 +48,7 @@ header {
   height: var(--header-height);
   margin: 0;
   position: relative;
-  top: 0;
+  top: 10;
   z-index: 999;
 }
 
