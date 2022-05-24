@@ -209,11 +209,12 @@ footer::before {
 
 #footer-heading {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-shadow:1px 1px 1px var(--clr-accent) ;
   margin-top: 80px;
   font-weight: var(--weight-nunito-light);
   text-transform: uppercase;
+  background-color: transparent;
 
 }
 
