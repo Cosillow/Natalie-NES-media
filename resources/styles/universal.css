@@ -166,7 +166,7 @@ header ul {
   #close-modal, #hamburger-button {
     background: none;
     border: none;
-    color: var(--clr-accent);
+    color: var(white);
   }
 
   #close-modal:hover, #hamburger-button:hover {
