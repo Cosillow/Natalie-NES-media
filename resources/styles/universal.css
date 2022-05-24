@@ -45,10 +45,10 @@ header {
   width: 100%;
   height: var(--header-height);
   margin: 0;
-  position: sticky;
+  position: relative;
   top: 0;
-  border-bottom: 1px solid var(--clr-accent);
-  background: var(--clr-light);
+  /* border-bottom: 1px solid var(--clr-accent); */
+  background: transparent;
   z-index: 999;
 }
 
