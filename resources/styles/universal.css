@@ -109,7 +109,7 @@ header ul {
   text-decoration: none;
   text-shadow: 1px 1px 1px var(--clr-accent-secondary);
   text-transform:uppercase;
-  color: rgb(255, 255, 255);
+  color: transparent;
   padding: 0 1em;
 }
 
