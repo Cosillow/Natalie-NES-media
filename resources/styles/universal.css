@@ -46,6 +46,11 @@ header {
   /* background: rgb(169, 169, 236); */
   width: 100%;
   height: var(--header-height);
+  margin: 0;
+  position: relative;
+  top: 0;
+  /* border-bottom: 1px solid var(--clr-accent); */
+  background: transparent;
   margin: 10px;
   position: relative;
   top: 10;
