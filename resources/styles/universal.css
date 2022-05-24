@@ -7,11 +7,10 @@
   --clr-light: white;
 
   --font-nunito: 'Nunito';
-  --weight-nunito-light: 100;
   --weight-nunito-regular: 400;
   --weight-nunito-bold: 700;
 
-  --header-height: 0px;
+  --header-height: 95px;
 }
 *,
 *::before,
@@ -30,13 +29,12 @@ body {
   min-height: 100vh;
   position: relative;
   font-family: var(--font-nunito);
-  font-weight: var(--weight-nunito-light);
+  font-weight: var(--weight-nunito-regular);
 }
 
 img {
   display: block;
   max-width: 100%;
-  max-height: max-content;
 }
 
 /* header styling */
@@ -51,34 +49,29 @@ header {
   top: 0;
   /* border-bottom: 1px solid var(--clr-accent); */
   background: transparent;
-  margin: 10px;
-  position: relative;
-  top: 10;
   z-index: 999;
 }
 
 #nav-logo {
   width: var(--navlogo-size);
   max-width: var(--navlogo-size);
-  margin-top: 10px;
   padding-left: 5px;
-  padding-top: 5px;
+  padding-top: 10px;
   cursor: pointer;
   position: relative;
   z-index: 1;
 }
 
 header > nav > ul {
-  margin-top: auto;
   display: flex;
   flex-direction: row;
 }
 
 header ul {
   margin: 0;
-  padding: 20;
+  padding: 0;
   list-style: none;
-  height: 500%;
+  height: 100%;
 }
 
 #hamburger-button {
@@ -95,14 +88,13 @@ header ul {
 }
 
 #menu ul {
-  display: absolute;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   position: absolute;
   left: 0;
   right: 0;
-  top: 15px;
 }
 
 #menu a, #menu li {
@@ -116,7 +108,7 @@ header ul {
   text-decoration: none;
   text-shadow: 1px 1px 1px var(--clr-accent-secondary);
   text-transform:uppercase;
-  color: white;
+  color: black;
   padding: 0 1em;
 }
 
@@ -138,18 +130,18 @@ header ul {
     position: absolute;
     right: 20px;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     z-index: 99;
     font-size: 20px;
   }
 
   #menu ul {
-    display: flex;
-    position: fixed;
+    display: none;
+    position: absolute;
     top: 50vh;
     left: 50vw;
-    transform: translate(50%, 50%);
-    height: max(305px, 50vh);
+    transform: translate(-50%, -50%);
+    height: max(410px, 60vh);
     width: max(305px, 60vw);
     border: 2px solid var(--clr-accent);
     background: var(--clr-light);
@@ -173,7 +165,7 @@ header ul {
   #close-modal, #hamburger-button {
     background: none;
     border: none;
-    color: var(white);
+    color: var(--clr-accent);
   }
 
   #close-modal:hover, #hamburger-button:hover {
@@ -192,7 +184,7 @@ header ul {
 
 /* footer stlyling */
 footer {
-  --footer-height: 10px;
+  --footer-height: 300px;
 
   position: absolute;
   bottom: calc(-1 * var(--footer-height));
@@ -209,19 +201,18 @@ footer::before {
   position: absolute;
   right: 50%;
   transform: translateX(50%);
-
+  background: var(--clr-accent);
   
   top: 30px;
 }
 
 #footer-heading {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: black;
   text-shadow:1px 1px 1px var(--clr-accent) ;
-  margin-top: 80px;
-  font-weight: var(--weight-nunito-light);
+  margin-top: 100px;
+  font-weight: var(--weight-nunito-bold);
   text-transform: uppercase;
-  background-color: transparent;
 
 }
 
@@ -232,14 +223,14 @@ footer nav {
 
 #social-list {
   list-style: none;
-  padding: 10;
+  padding: 0;
   margin: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 75%;
   justify-content: center;
-  /* margin-top: 10px; */
+  /* margin-top: 20px; */
 }
 
 .social-link {
@@ -247,7 +238,7 @@ footer nav {
 }
 
 .social-list {
-  margin: 3px;
+  margin: 0 1em;
 }
 
 .social-list {
@@ -268,7 +259,7 @@ footer nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 7em;
+    margin-bottom: 4em;
   }
 }
 
@@ -361,6 +352,23 @@ th, td {
   padding: 2em;
 }
 
+.dotted-separator {
+  --margin-top: 100px;
+  margin-top: var(--margin-top);
+  position: relative;
+}
+
+.dotted-separator::before {
+  content: '';
+  height: 0px;
+  width: 50%;
+  border-top: 2px dotted var(--clr-accent);
+  /* border-bottom: 2px groove rgb(194, 109, 109); */
+  position: absolute;
+  top: calc(-1 * var(--margin-top) / 2 );
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 button {
   cursor: pointer;

@@ -4,7 +4,7 @@
 
 h1 {
   margin-bottom: 30px;
-  font-weight: var(--weight-nunito-light);
+  font-weight: var(--weight-sans-bold);
   font-size: 30px;
   text-align: center;
 }
