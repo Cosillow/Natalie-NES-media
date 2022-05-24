@@ -1,15 +1,6 @@
-#hero {
-  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/sunset.jpg");
-  background-attachment: fixed;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: calc(100vh - var(--header-height));
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+#demo {
+  background: #D0E4F5 url("https://wallpaperaccess.com/full/3862774.jpg") no-repeat local 10px 7px;
+  }
 
 h1 {
   padding: 1em 3em;
