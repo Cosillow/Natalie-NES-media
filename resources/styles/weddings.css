@@ -21,6 +21,7 @@ h1 {
   padding: 1em 3em;
   margin: 0;
   font-family: var(--font-nunito);
+  font-weight: lighter;
   background: var(--clr-light);
   border: 2px solid var(--clr-accent);
   color: var(--clr-accent);
