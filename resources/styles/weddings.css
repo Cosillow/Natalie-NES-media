@@ -1,5 +1,22 @@
 
+#hero-section {
+  min-height: calc(100vh - var(--header-height));
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
 
+  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/sunset.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo-hero {
+  width: 500px;
+  max-width: 500px;
+}
 h1 {
   padding: 1em 3em;
   margin: 0;
