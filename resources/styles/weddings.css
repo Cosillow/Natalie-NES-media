@@ -18,17 +18,13 @@
   max-width: 500px;
 }
 h1 {
-  padding: 1em 3em;
-  margin: 0;
-  font-family: var(--font-nunito);
-  font-weight: 10px;
-  background: var(--clr-light);
-  border: 2px solid var(--clr-accent);
-  color: var(--clr-accent);
-  border-radius: 100vw;
-  background: #D0E4F5 url("https://wallpaperaccess.com/full/3862774.jpg") no-repeat local 10px 7px;
+    margin-bottom: 30px;
+    font-weight: var(--weight-nunito);
+    text-transform: uppercase;
+    font-size: 30px;
+  }
   
-}
+
 
 /* videos */
 #video-section {
