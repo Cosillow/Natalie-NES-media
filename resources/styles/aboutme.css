@@ -54,6 +54,7 @@ h1 {
 
 #description {
   max-width: 700px;
-  position: relative;left: -100px;
+  height: fit-content;
+  position: relative;left: -150px;
 
 }
