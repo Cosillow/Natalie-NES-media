@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-
+@import url('resources/fonts/Nes-Regular.ttf');
 :root {
   --clr-accent: #7cfeff;
   --clr-accent-secondary: #ff75fc;
@@ -219,8 +219,7 @@ footer::before {
   color: white;
   text-shadow:1px 1px 1px var(--clr-accent) ;
   margin-top: 100px;
-  font-weight: var(--weight-nunito-light);
-  font-family: var(--font-nunito);
+  font-family: var(--font-NES-Regular);
   text-transform: uppercase;
 
 }
