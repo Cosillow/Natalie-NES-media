@@ -39,8 +39,7 @@ h1 {
 }
 
 #info > :nth-child(2) {
-position: relative; left: 80px; top: 2px;
-  
+  justify-content: center;  
 }
 
 #natalie-photo {
