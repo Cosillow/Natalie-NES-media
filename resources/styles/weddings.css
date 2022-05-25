@@ -44,9 +44,6 @@ h2 {
   padding: 0 15%;
 }
 
-summary br {
-  margin-bottom: 10px;
-}
 
 #price-table {
   --border-color: var(--clr-accent);
