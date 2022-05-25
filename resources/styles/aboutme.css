@@ -50,7 +50,7 @@ h1 {
   max-width: 300px;
   max-height: 390px;
   float: left;
-  position:relative; left: -180px; top:20px;
+  position:relative; left: -150px; top:20px;
   
   
 }
@@ -58,6 +58,6 @@ h1 {
 #description {
   width: 1010px;
   height: auto;
-  position: relative;left: -100px; top: -5px
+  position: relative;left: -90px; top: -5px
 
 }
