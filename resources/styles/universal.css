@@ -219,7 +219,7 @@ footer::before {
   color: black;
   text-shadow:1px 1px 1px var(--clr-accent) ;
   margin-top: 100px;
-  font-weight: var(--weight-nunito-bold);
+  font-weight: var(--weight-nunito-light);
   font-family: var(--font-nunito);
   text-transform: uppercase;
 
@@ -305,25 +305,7 @@ iframe {
   width: 100%;
 }
 
-.tooltip:before {
-  content: 'tooltip';
-  visibility: hidden;
-  width: 120px;
-  background-color: var(--clr-accent);
-  color: var(--clr-light);
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  width: 120px;
-  bottom: calc(100% + 10px);
-  left: 50%;
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-  position: absolute;
-  z-index: 1;
 
-  opacity: .7;
-}
 
 
 
