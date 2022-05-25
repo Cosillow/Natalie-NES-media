@@ -7,11 +7,9 @@ h1 {
   padding: 1em 3em;
   margin: 0;
   background: var(--clr-light);
-  border: 2px solid var(--clr-accent);
   border-radius: 100vw;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow:1px 1px 1px var(--clr-accent) ;
   font-family: var(--font-nes) ;
   text-transform: uppercase;
 
