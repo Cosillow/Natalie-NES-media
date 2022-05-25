@@ -319,9 +319,7 @@ th {
   text-align: left;
 }
 
-tr {
-  border: 1.5px solid var(--border-color);
-}
+
 
 th, td {
   padding: 2em;
