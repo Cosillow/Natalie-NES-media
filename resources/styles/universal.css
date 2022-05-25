@@ -96,6 +96,15 @@ header ul {
   left: 0;
   right: 0;
 }
+ul li:not(:last-child)::after{
+  content:""; 
+  border:1px solid #e2e2e2;
+  border-width: 1px 1px 0 0;
+  position:absolute; 
+  right:-3px; 
+  top:0; 
+  height:100%;
+}
 
 #menu a, #menu li {
   width: max-content;
