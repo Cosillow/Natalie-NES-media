@@ -47,12 +47,12 @@ h1 {
   max-width: 300px;
   height: auto;
   max-height: 390px;
-  box-shadow: 15px -15px 5px -11px var(--clr-accent), -15px 15px 5px -11px var(--clr-accent-secondary);
   float: left;
+  
 }
 
 #description {
-  max-width: 400px;
+  max-width: 500px;
   word-wrap: normal;
 
 }
