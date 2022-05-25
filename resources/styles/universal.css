@@ -198,18 +198,6 @@ footer {
   height: var(--footer-height);
 }
 
-footer::before {
-  content: '';
-  height: 2px;
-  width: 80%;
-
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
-  background: var(--clr-accent);
-  
-  top: 30px;
-}
 
 #footer-heading {
   text-align: center;
