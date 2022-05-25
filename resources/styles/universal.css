@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-@import url('resources/fonts/Nes-Regular.ttf');
+@import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/Nes-Regular.ttf);
 :root {
   --clr-accent: #7cfeff;
   --clr-accent-secondary: #ff75fc;
@@ -11,8 +11,7 @@
   --weight-nunito-bold: 700;
 
   --header-height: 95px;
-
-  --font-nes: 'NES'
+  --font-nes:'NES'
 }
 *,
 *::before,
@@ -153,7 +152,6 @@ ul li:not(:last-child)::after{
     transform: translate(-50%, -50%);
     height: max(410px, 60vh);
     width: max(305px, 60vw);
-    border: 2px solid var(--clr-accent);
     background: var(--clr-light);
     z-index: 999;
 
@@ -218,7 +216,7 @@ footer::before {
 
 #footer-heading {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-shadow:1px 1px 1px var(--clr-accent) ;
   margin-top: 100px;
   font-family: var(--font-NES-) ;
