@@ -170,11 +170,8 @@ ul li:not(:last-child)::after{
     font-size: 25px;
   }
 
-  #close-modal, #hamburger-button {
-    background: none;
-    border: none;
-    color: var(--clr-accent);
-  }
+  
+  
 
   #close-modal:hover, #hamburger-button:hover {
     opacity: .8;
