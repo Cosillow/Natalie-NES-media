@@ -39,7 +39,7 @@ h1 {
 }
 
 #info > :nth-child(2) {
-  justify-content: left;
+  justify-content: space-around
   
   padding-left: var(--padding-middle);;
 }
