@@ -6,13 +6,16 @@
 
   position: relative;
 }
+body {
+  background-image:url("/resources/img/aboutmebckgrnd.png")
+}
 
 h1 {
   margin-bottom: 30px;
   font-family: var(--font-nes) ;
   text-transform: uppercase;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 #info {
