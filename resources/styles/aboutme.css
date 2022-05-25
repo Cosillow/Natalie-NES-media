@@ -39,7 +39,7 @@ h1 {
 }
 
 #info > :nth-child(2) {
-  justify-content: space-around
+position: relative; left: 80px; top: 2px;
   
 }
 
