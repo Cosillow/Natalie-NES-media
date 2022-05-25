@@ -9,6 +9,9 @@ h1 {
   border: 2px solid var(--clr-accent);
   color: var(--clr-accent);
   border-radius: 100vw;
+  font-family: var(--font-nes) ;
+  
+
 }
 
 /* videos */
