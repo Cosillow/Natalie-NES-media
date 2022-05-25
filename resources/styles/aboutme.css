@@ -47,14 +47,14 @@ h1 {
   height: auto;
   max-height: 390px;
   float: left;
-  position: relative;left:-200px;
+  position: relative;left:-300px;
   
   
 }
 
 #description {
   max-width: 700px;
-  height: fit-content;
-  position: relative;left: -150px;
+  height: auto;
+  position: relative;left: -250px;
 
 }
