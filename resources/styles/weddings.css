@@ -45,7 +45,10 @@ h2 {
   text-transform: uppercase;
   text-transform: uppercase;
   font-size: 60px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+p{
+  text-align: center;
 }
 
 #pricing summary {
