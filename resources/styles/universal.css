@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-@import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/Nes-Regular.ttf);
+@import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/Caveat-VariableFont_wght.ttf);
 :root {
   --clr-accent: #7cfeff;
   --clr-accent-secondary: #ff75fc;
@@ -11,7 +11,7 @@
   --weight-nunito-bold: 700;
 
   --header-height: 95px;
-  --font-nes:'NES'
+  --font-caveat:'caveat'
 }
 *,
 *::before,
@@ -204,7 +204,7 @@ footer {
   color: rgb(255, 255, 255);
   text-shadow:1px 1px 1px var(--clr-accent) ;
   margin-top: 100px;
-  font-family: var(--font-nes) ;
+  font-family: var(--font-caveat) ;
   text-transform: uppercase;
 
 }
