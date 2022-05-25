@@ -324,19 +324,7 @@ iframe {
   opacity: .7;
 }
 
-.tooltip:after {
-  content: " ";
-  position: absolute;
-  top: -10px; /* At the bottom of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: var(--clr-accent) transparent transparent transparent;
-  visibility: hidden;
 
-  opacity: .7;
-}
 
 .tooltip:hover:before, .tooltip:hover:after {
   visibility: visible;
