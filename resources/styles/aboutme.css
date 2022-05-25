@@ -46,7 +46,7 @@ h1 {
   max-width: 300px;
   max-height: 390px;
   float: left;
-  position:relative; left: -240px; ;
+  position:relative; left: -240px; top:20px;
   
   
 }
