@@ -216,7 +216,7 @@ footer::before {
 
 #footer-heading {
   text-align: center;
-  color: black;
+  color: white;
   text-shadow:1px 1px 1px var(--clr-accent) ;
   margin-top: 100px;
   font-weight: var(--weight-nunito-light);
@@ -243,7 +243,7 @@ footer nav {
 }
 
 .social-link {
-  color: black;
+  color: white;
 }
 
 .social-list {
