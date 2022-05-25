@@ -46,7 +46,7 @@ h1 {
   max-width: 300px;
   max-height: 390px;
   float: left;
-  position:relative; left: -240px; top:20px;
+  position:relative; left: -210px; top:20px;
   
   
 }
@@ -54,6 +54,6 @@ h1 {
 #description {
   width: 1010px;
   height: auto;
-  position: relative;left: -200px; top: -5px
+  position: relative;left: -150px; top: -5px
 
 }
