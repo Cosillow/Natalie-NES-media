@@ -56,7 +56,7 @@ h1 {
 }
 
 #description {
-  width: 1010px;
+  width: auto;
   height: auto;
   position: relative;left: -90px; top: -5px
 

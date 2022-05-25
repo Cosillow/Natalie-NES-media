@@ -9,8 +9,8 @@ h1 {
   background: var(--clr-light);
   border-radius: 100vw;
   text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: var(--font-nes) ;
+  color: rgb(0, 0, 0);
+  font-family: var(--font-caveat) ;
   text-transform: uppercase;
 
 }
@@ -41,7 +41,7 @@ h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
-  font-family: var(--font-nes) ;
+  font-family: var(--font-caveat) ;
   text-transform: uppercase;
   text-transform: uppercase;
   font-size: 60px;
