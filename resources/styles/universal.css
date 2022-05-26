@@ -197,7 +197,12 @@ footer {
   height: var(--footer-height);
 }
 
-
+​div {
+  width: 100%;
+  height: 300px;
+  background-image: url("/resources/img/contactme.png");
+  background-size: 100% 100%;
+}​
 
 #footer-heading {
   text-align: center;
@@ -208,8 +213,6 @@ footer {
   text-transform: uppercase;
   font-weight: 100;
   font-size: medium;
-  mask-image: url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/img/contactme.png);
-
 }
 
 footer nav {
