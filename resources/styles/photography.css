@@ -28,6 +28,10 @@ h1 {
 
 #pricing {
   min-height: 100vh;
+  font-family: var(--font-nunito);
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 #see-pricing {
@@ -44,6 +48,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: var(--font-nunito);
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 
