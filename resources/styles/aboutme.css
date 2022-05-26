@@ -49,8 +49,8 @@ h1 {
 
 #natalie-photo {
   float: left;
-  max-width: 300;
-  max-height: 390;
+  max-width: 300px;
+  max-height: 390px;
 }
 
 #description {
