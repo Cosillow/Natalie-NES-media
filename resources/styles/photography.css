@@ -55,11 +55,9 @@ h1 {
 }
 
 
-
-
 /* pricing */
 #pricing-table {
-
+margin-top: 10px;
   margin: 0 auto;
   font-family: var(--font-nunito);
   font-weight: 100;
