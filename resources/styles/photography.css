@@ -1,6 +1,9 @@
 #gallery {
   min-height: calc(100vh - var(--header-height));
 }
+body {
+  background-image:url("/resources/img/aboutme.png")
+}
 
 h1 {
   font-family: var(--font-nunito) ;
