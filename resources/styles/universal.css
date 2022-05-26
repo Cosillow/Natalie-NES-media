@@ -122,7 +122,7 @@ ul li:not(:last-child)::after{
 }
 
 #menu a:hover {
-  text-shadow: 0 0 2px var(--clr-accent), 0 0 2px var(--clr-accent-secondary);}
+  text-shadow: 0 0 2px var(--clr-accent), }
 
 @media all and (max-width: 1080px) {
   /* change menu positioning for semi-small screen sizes */
