@@ -199,13 +199,11 @@ footer {
   font-weight: 100px;
   letter-spacing: 4px;
   color: white;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width:2px
   ;
 }
  
 footer{
-  background-image: url(https://content.invisioncic.com/p289038/monthly_2020_02/Newman.thumb.jpg.7b9c63815001d8f440820ca6c2990f43.jpg);
+  background-image: url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/img/contactme.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
