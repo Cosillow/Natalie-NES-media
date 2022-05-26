@@ -12,6 +12,7 @@ h1 {
   font-family: var(--font-nunito-light) ;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-shadow:1px 1px 1px var(--clr-accent) ;
 
 }
 
