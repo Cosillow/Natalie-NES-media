@@ -195,12 +195,10 @@ footer {
   left: 0;
   right: 0;
   height: var(--footer-height);
-<<<<<<< HEAD
   font-family: var(--font-nunito);
   font-weight: 100px;
   letter-spacing: 4px;
   color: white;
-=======
 }
 
 
@@ -214,9 +212,6 @@ footer {
   text-transform: uppercase;
   font-weight: 100;
   font-size: medium;
-  mask-image: url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/img/contactme.png);
-
->>>>>>> parent of 0a6ca8d (footer)
 }
 
 footer nav {
