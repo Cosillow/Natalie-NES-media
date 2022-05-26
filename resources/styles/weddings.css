@@ -42,10 +42,11 @@ h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
-  font-family: var(--font-caveat) ;
+  font-family: var(--font-nunito-) ;
   text-transform: uppercase;
   text-transform: uppercase;
-  font-size: 60px;
+  letter-spacing: 4px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
 }
 p{
