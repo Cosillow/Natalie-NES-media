@@ -48,16 +48,13 @@ h1 {
 }
 
 #natalie-photo {
-  max-width: 200px;
-  max-height: 260px;
+
   float: left;
-  clear: both;
   
 }
 
 #description {
-  width: auto;
-  height: auto;
-  position: relative;left: -90px; top: -5px
-
+  width: 132;
+  height: 100;
+clear: both;
 }
