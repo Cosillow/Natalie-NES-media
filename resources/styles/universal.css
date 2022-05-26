@@ -198,9 +198,13 @@ footer {
   font-family: var(--font-nunito);
   font-weight: 100px;
   letter-spacing: 4px;
-  color: white;}
-  body {background-image:url("/resources/img/lacebackgroundgradient.png")
-  var(--navlogo-size)}
+  color: white;
+  background-image: url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/img/contactme.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
 
 
 
