@@ -9,7 +9,8 @@ h1 {
   border-radius: 100vw;
   text-align: center;
   color: rgb(0, 0, 0);
-  font-family: var(--font-nunito) ;
+  font-family: var(--font-nunito-light) ;
+  letter-spacing: 1px;
   text-transform: uppercase;
 
 }
