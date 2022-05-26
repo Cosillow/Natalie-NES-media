@@ -195,18 +195,12 @@ footer {
   left: 0;
   right: 0;
   height: var(--footer-height);
-}​
 
-#footer-heading {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: var(--font-nunito) ;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: medium;
+
 }
+#footer-heading
+
+
 
 footer nav {
   display: flex;
