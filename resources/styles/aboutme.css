@@ -52,7 +52,7 @@ h1 {
   max-height: 390px;
   float: left;
   position:relative; left: -150px; top:20px;
-  
+  clear: both;
   
 }
 
