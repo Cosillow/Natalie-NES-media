@@ -202,7 +202,7 @@ footer {
   background-image: url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/img/contactme.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
  
 
