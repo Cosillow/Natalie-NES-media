@@ -6,11 +6,10 @@ h1 {
 
   padding: 1em 3em;
   margin: 0;
-  background: var(--clr-light);
   border-radius: 100vw;
   text-align: center;
   color: rgb(0, 0, 0);
-  font-family: var(--font-caveat) ;
+  font-family: var(--font-nunito) ;
   text-transform: uppercase;
 
 }
