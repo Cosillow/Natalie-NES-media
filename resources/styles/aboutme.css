@@ -23,9 +23,10 @@ h1 {
   float: left;
   max-width: 300px;
   max-height: 390px;
-  margin: auto;
+  margin: 3px;
 }
 
 #description {
-  text-align: right;
+  text-align: left;
+  padding-left: 3px;
 }
