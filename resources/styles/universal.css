@@ -198,9 +198,10 @@ footer {
   font-family: var(--font-nunito);
   font-weight: 100px;
   letter-spacing: 4px;
-  color: white;
-  background-image: url("/resources/img/contactme.png");
-}
+  color: white;}
+  body {background-image:url("/resources/img/lacebackgroundgradient.png")
+  var(--navlogo-size)}
+
 
 
 
