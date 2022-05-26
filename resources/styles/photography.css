@@ -31,26 +31,16 @@ h1 {
 }
 
 #see-pricing {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 50%;
-  left: calc( 25% / 4);
-  transform: translateX(-50%);
-  display: inline-block;
+
   /* width: 100px; */
   z-index: 98;
   display: block;
 
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  border-radius: 50%;
-  background: var(--clr-light);
   padding: 1em;
   text-align: center;
-  color: var(--clr-accent);
-  border: 2px solid var(--clr-accent);
-
+  font-family: var(--font-nunito);
+  font-weight: 100;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +55,7 @@ h1 {
   margin: 0 auto;
   font-family: var(--font-nunito);
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 #description, h2 {
