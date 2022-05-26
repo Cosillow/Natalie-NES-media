@@ -21,17 +21,6 @@ h1 {
 
 
 
-#info > div {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  /* justify-content: center; */
-}
-
-#info > :nth-child(1) {
-  padding-right: var(--padding-middle);;
-}
 
 #natalie-photo {
   float: left;
@@ -42,6 +31,4 @@ h1 {
 
 #description {
   clear: left;
-  
-
 }
