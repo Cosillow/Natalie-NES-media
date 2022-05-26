@@ -13,11 +13,10 @@ body {
 h1 {
   margin-bottom: 30px;
   font-family: var(--font-nunito) ;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 60px;
 }
 
 #info {
