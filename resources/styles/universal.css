@@ -190,14 +190,15 @@ ul li:not(:last-child)::after{
 footer {
   --footer-height: 300px;
   position: absolute;
+  justify-content: center;
   bottom: calc(-1 * var(--footer-height));
   left: 0;
   right: 0;
   height: var(--footer-height);
-
-
+  font-family: var(--font-nunito);
+  font-weight: 100px;
+  letter-spacing: 4px;
 }
-
 
 
 footer nav {
@@ -279,10 +280,6 @@ iframe {
   position: relative;
   width: 100%;
 }
-
-
-
-
 
 .tooltip:hover:before, .tooltip:hover:after {
   visibility: visible;
