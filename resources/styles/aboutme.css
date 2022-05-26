@@ -48,8 +48,8 @@ h1 {
 }
 
 #natalie-photo {
-  max-width: 300px;
-  max-height: 390px;
+  max-width: 200px;
+  max-height: 260px;
   float: left;
   position:relative; left: -150px; top:20px;
   clear: both;
