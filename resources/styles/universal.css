@@ -202,8 +202,7 @@ body {
   background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/img/contactme.png);
   background-position:  center;
   background-repeat: no-repeat;
-  background-size: var(--navlogo-size)
-}
+  max-height: fit-content ;}
 
 
 #footer-heading {
