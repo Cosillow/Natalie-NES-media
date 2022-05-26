@@ -20,8 +20,6 @@ h1 {
 }
 
 
-
-
 #natalie-photo {
   float: left;
   max-width: 300px;
@@ -31,4 +29,5 @@ h1 {
 
 #description {
   clear: left;
+  text-align: right;
 }
