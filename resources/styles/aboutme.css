@@ -56,5 +56,5 @@ h1 {
 #description {
   width: 132;
   height: 100;
-clear: both;
+  clear: left;
 }
