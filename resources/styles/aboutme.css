@@ -19,15 +19,13 @@ h1 {
   font-weight: 100;
 }
 
-
 #natalie-photo {
   float: left;
   max-width: 300px;
   max-height: 390px;
-  padding: 0 20px 20px 0;
+  margin: auto;
 }
 
 #description {
-  clear: left;
   text-align: right;
 }
