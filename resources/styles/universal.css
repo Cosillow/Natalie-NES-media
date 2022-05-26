@@ -198,12 +198,13 @@ footer {
   font-family: var(--font-nunito);
   font-weight: 100px;
   letter-spacing: 4px;
+  color: white;
 }
-
 
 footer nav {
   display: flex;
   justify-content: center;
+  letter-spacing: normal;
 }
 
 #social-list {
