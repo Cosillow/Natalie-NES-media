@@ -53,24 +53,20 @@ h1 {
   align-items: center;
 }
 
-#see-pricing::before {
-  content: 'see pricing';
-}
 
-#see-pricing > i {
-  display: block;
-}
 
 
 /* pricing */
 #pricing-table {
-  --border-color: var(--clr-accent);
 
-  border: 1px solid var(--border-color);
   margin: 0 auto;
+  font-family: var(--font-nunito);
+  font-weight: 100;
 }
 
 #description, h2 {
   text-align: center;
   position: relative;
+  font-family: var(--font-nunito);
+  font-weight: 100;
 }
