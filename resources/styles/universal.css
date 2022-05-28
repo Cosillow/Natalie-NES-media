@@ -188,7 +188,7 @@ ul li:not(:last-child)::after{
 
 /* footer stlyling */
 footer {
-  --footer-height: 300px;
+  --footer-height: 200px;
   position: absolute;
   justify-content: center;
   bottom: calc(-1 * var(--footer-height));
