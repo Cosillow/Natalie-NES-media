@@ -222,7 +222,7 @@ footer{
   font-weight: 100;
   font-size: medium;
   margin-top: 90px;
-  position: relative; bottom: -10px;
+  position: relative; bottom: 10px;
 }
 
 footer nav {
