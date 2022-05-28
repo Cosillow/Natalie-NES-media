@@ -204,9 +204,9 @@ footer {
  
 footer{
   background-image: url("/resources/img/light.png"), url("/resources/img/contactme.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, contain;
   background-size: 100%;
 }
 
