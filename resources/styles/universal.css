@@ -188,7 +188,7 @@ ul li:not(:last-child)::after{
 
 /* footer stlyling */
 footer {
-  --footer-height: 100px;
+  --footer-height: 300px;
   position: absolute;
   justify-content: center;
   bottom: calc(-1 * var(--footer-height));
@@ -221,7 +221,7 @@ footer{
   text-transform: uppercase;
   font-weight: 100;
   font-size: medium;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 footer nav {
