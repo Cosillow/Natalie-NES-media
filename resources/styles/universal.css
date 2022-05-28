@@ -221,7 +221,7 @@ footer{
   text-transform: uppercase;
   font-weight: 100;
   font-size: medium;
-  margin-top: 90px;
+  margin-top: 180px;
 }
 
 footer nav {
@@ -239,7 +239,7 @@ footer nav {
   flex-wrap: wrap;
   width: 75%;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 180px;
 
   
   /* margin-top: 20px; */
