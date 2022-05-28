@@ -208,6 +208,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100%;
+  z-index: 1;
 }
 footer{
   background-image: url("/resources/img/contactme.png");
@@ -215,6 +216,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100%;
+  z-index: 999;
 }
 
 
