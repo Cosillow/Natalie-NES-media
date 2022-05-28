@@ -222,6 +222,7 @@ footer{
   font-weight: 100;
   font-size: medium;
   margin-top: 90px;
+  position: relative; bottom: 40px;
 }
 
 footer nav {
@@ -240,6 +241,7 @@ footer nav {
   flex-wrap: wrap;
   width: 75%;
   justify-content: center;
+  
   /* margin-top: 20px; */
 }
 
