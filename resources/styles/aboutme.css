@@ -27,8 +27,23 @@ h1 {
   padding-top: 20px;
 }
 
-#description {
+#description1{
   text-align: left;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#description2{
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#description3{
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+#description4{
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
 }
