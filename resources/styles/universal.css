@@ -202,14 +202,9 @@ footer {
   ;
 }
  
-footer{
+#footer{
   background-image: url("/resources/img/contactme.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
-
-
 
 
 #footer-heading {
