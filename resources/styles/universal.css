@@ -214,7 +214,7 @@ footer{
   background-image: url("/resources/img/contactme.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: bottom;
+  background-position-y: 10px;
 }
 
 
