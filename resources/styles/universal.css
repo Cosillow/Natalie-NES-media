@@ -202,6 +202,9 @@ footer {
   ;
 }
  
+#footer{
+  background-image: url("/resources/img/contactme.png");
+}
 
 footer{
   background-image: url(/resources/img/contactme.png);
