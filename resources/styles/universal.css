@@ -159,7 +159,15 @@ ul li:not(:last-child)::after{
     box-shadow: 0px 0px 0px 100vh #00000083;
     /* flex styling for when modal is active */
     flex-direction: column;
+    
   }
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li:not(:last-child):after {
+    content: "|";
+    }
 
   #close-modal {
     display: block;
