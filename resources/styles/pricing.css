@@ -1,0 +1,10 @@
+
+
+/* pricing */
+#pricing-table {
+    margin-top: 30px;
+      margin: 0 auto;
+      font-family: var(--font-nunito);
+      font-weight: 100;
+      text-transform: uppercase;
+    }
