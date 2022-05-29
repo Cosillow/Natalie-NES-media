@@ -191,7 +191,7 @@ footer {
   --footer-height: 300px;
   position: absolute;
   justify-content: center;
-  bottom: calc(-1 * var(--footer-height));
+  bottom: calc(1 * var(--footer-height));
   left: 0;
   right: 0;
   height: var(--footer-height);
