@@ -206,7 +206,11 @@ footer{
   background-image: url("/resources/img/contactme.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, .3);    
+  background-repeat: no-repeat;    
+  background-size: 100% ;      
+  background-blend-mode: color;
 }
 
 
