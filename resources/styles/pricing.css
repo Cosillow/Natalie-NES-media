@@ -1,6 +1,7 @@
 
 
 /* pricing */
+
 #pricing-table {
     margin-top: 30px;
       margin: 0 auto;
@@ -8,3 +9,49 @@
       font-weight: 100;
       text-transform: uppercase;
     }
+    #pricing {
+        min-height: 100vh;
+        font-family: var(--font-nunito);
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+      }
+      
+      #see-pricing {
+      
+        /* width: 100px; */
+        z-index: 98;
+        display: block;
+      
+        padding: 1em;
+        text-align: center;
+        font-family: var(--font-nunito);
+        font-weight: 100;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-nunito);
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+      }
+      
+      
+      /* pricing */
+      #pricing-table {
+      margin-top: 30px;
+        margin: 0 auto;
+        font-family: var(--font-nunito);
+        font-weight: 100;
+        text-transform: uppercase;
+      }
+      
+      #description, h2 {
+        text-align: center;
+        position: relative;
+        font-family: var(--font-nunito);
+        font-weight: 100;
+        margin-top: 80px;
+        margin-bottom: 30px;
+      }
