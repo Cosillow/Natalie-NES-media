@@ -206,7 +206,7 @@ footer{
   background-image: url("/resources/img/contactme.png");
   background-position: center center, center center;
   background-repeat: no-repeat, no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-size: 100%
 }
 
