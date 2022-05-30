@@ -6,6 +6,7 @@
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-top: -20px;
   }
   
   #see-pricing {
@@ -38,17 +39,20 @@
     text-transform: uppercase;
   }
   
-  #description, h2 {
+  #description {
     text-align: center;
     position: relative;
     font-family: var(--font-nunito);
     font-weight: 100;
   }
-  h3{
+  h3, h2{
     text-align: center;
     position: relative;
     font-family: var(--font-nunito);
     font-weight: 100;
+    font-size: large;
+    text-decoration: underline;
+    
   }
 
   #pricing-table2 {
