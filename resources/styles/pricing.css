@@ -63,7 +63,7 @@
       text-transform: uppercase;
     }
     #pricingweddings{
-
+    margin-top: 10px;
     min-height: 100vh;
     font-family: var(--font-nunito);
     font-weight: 100;
