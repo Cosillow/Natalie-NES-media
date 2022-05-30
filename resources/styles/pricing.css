@@ -30,8 +30,8 @@
   
   
   /* pricing */
-  #pricing-table {
-  margin-top: 30px;
+  #pricing-table1 {
+  margin-top: -30px;
     margin: 0 auto;
     font-family: var(--font-nunito);
     font-weight: 100;
