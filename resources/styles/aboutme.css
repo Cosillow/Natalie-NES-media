@@ -47,3 +47,65 @@ h1 {
   margin-right: 60px;
   margin-left: 60px;
 }
+
+#hannah-photo{
+    float: left;
+    max-width: 300px;
+    max-height: 390px;
+    margin-left: 150px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+
+#auggie-photo{
+  float: right;
+  max-width: 300px;
+  max-height: 390px;
+  margin-right: 150px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#dogtitle{
+  font-family: var(--font-nunito) ;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#hannah{
+  font-family: var(--font-nunito) ;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+#auggie{
+  font-family: var(--font-nunito) ;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: overline;
+}
+#hannahdescription{
+  font-family: var(--font-nunito) ;
+  text-align: left;
+}
+#auggiedescription {
+  font-family: var(--font-nunito) ;
+text-align: right;
+margin-top: 200px;
+}
