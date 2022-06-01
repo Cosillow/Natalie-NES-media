@@ -1,5 +1,14 @@
 
+#header-pricing{
 
+    text-align: center;
+    font-family: var(--font-nunito);
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 25px;
+    bottom: -3px;
+}
 #pricingphotos {
     min-height: 100vh;
     font-family: var(--font-nunito);
@@ -38,6 +47,29 @@
     font-weight: 100;
     text-transform: uppercase;
   }
+  #description-photos{
+    text-align: center;
+    position: relative;
+    font-family: var(--font-nunito);
+    font-weight: 100;
+    font-style: italic; 
+    margin-left: 205px;  
+    margin-right: 205px;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  #description-weddings{
+    text-align: center;
+    position: relative;
+    font-family: var(--font-nunito);
+    font-weight: 100;
+    font-style: italic; 
+    margin-left: 205px;  
+    margin-right: 205px;
+    text-transform: none;
+    letter-spacing: normal;
+    position: relative;
+  }
   
   #description {
     text-align: center;
@@ -52,6 +84,7 @@
     font-weight: 100;
     font-size: large;
     text-decoration: underline;    
+    margin: auto;
   }
 
   #pricing-table2 {
@@ -60,6 +93,7 @@
       font-family: var(--font-nunito);
       font-weight: 100;
       text-transform: uppercase;
+      position: relative;
     }
     #pricingweddings{
     margin-top: -300px;
@@ -68,4 +102,5 @@
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 4px;
+    position: relative;
     }

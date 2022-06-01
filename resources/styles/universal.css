@@ -215,6 +215,7 @@ footer{
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -80px;
+  position: absolute;
 }
 
 
