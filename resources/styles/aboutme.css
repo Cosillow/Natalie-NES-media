@@ -20,6 +20,7 @@ h1 {
 
 #natalie-photo {
   float: left;
+  border-radius: 5%;
   max-width: 300px;
   max-height: 390px;
   margin: 10px;
@@ -53,6 +54,8 @@ h1 {
   text-transform: uppercase;
   font-weight: 100;
   text-align: center;
+  margin-top: 200px;
+  font-size: larger;
  }
 
 
@@ -70,6 +73,7 @@ h1 {
    max-height: 390px;
    max-width: 300px;
    margin: 20px;
+   margin-top: 10px;
    margin-right: 50px;
    border-radius: 50%;
  }
@@ -90,7 +94,8 @@ h1 {
   font-weight: 100;
   font-size: 20px;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 120px;
+  
  }
  
  #hannah-desc{
@@ -104,4 +109,5 @@ h1 {
   text-align: left;
   margin-top: -5px;
  }
+
 
