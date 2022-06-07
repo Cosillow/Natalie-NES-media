@@ -12,19 +12,18 @@ h1 {
   text-transform: uppercase;
   font-weight: 100;
   text-align: center ;
+  font-size: larger;
+  margin-bottom: 80px;
 }
 
 #photo-grid {
   width: 75%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
   align-items: center;
 }
 
-#photo-grid > img {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
-}
 
 #pricing {
   min-height: 100vh;
