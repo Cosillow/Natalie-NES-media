@@ -20,33 +20,34 @@ h1 {
 
 #natalie-photo {
   float: left;
-  border-radius: 5%;
-  max-width: 300px;
-  max-height: 390px;
-  margin: 10px;
-  padding: 10px
+  max-width: 200px;
+  max-height: 260px;
+  margin-left: 85px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 15px;
 
 }
 
 #description1{
   text-align: left;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 95px;
+  margin-left: 95px;
 }
 #description2{
   text-align: left;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 95px;
+  margin-left: 95px;
 }
 #description3{
   text-align: left;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 95px;
+  margin-left: 95px;
 }
 #description4{
   text-align: left;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 95px;
+  margin-left: 95px;
 }
  #meet-my-associates-head{
   font-family: var(--font-nunito) ;
