@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/Caveat-VariableFont_wght.ttf);
+@import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/NothingYouCouldDo-Regular.ttf);
+@import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/Nes-Regular.ttf);
 :root {
   --clr-accent: #7cfeff;
   --clr-accent-secondary: #ff75fc;
@@ -12,6 +14,8 @@
 
   --header-height: 95px;
   --font-caveat:'caveat'
+
+
 }
 *,
 *::before,

@@ -10,9 +10,9 @@
 }
 #aboutmehead{
   margin-bottom: 30px;
-  font-family: var(--font-nunito) ;
+  font-family: var(--font-) ;
   letter-spacing: 4px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 100;
   font-size: larger;
   text-align: center;
