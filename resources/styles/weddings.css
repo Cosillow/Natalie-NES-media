@@ -1,5 +1,8 @@
 body {
-  background-image:url("/resources/img/lacebackgroundgradient.png")
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url("/resources/img/wedding.jpg")
+
 }
 
 h1 {
