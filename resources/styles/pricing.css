@@ -2,11 +2,11 @@
 #header-pricing{
 
     text-align: center;
-    font-family: var(--font-nunito);
-    font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 25px;
+    font-family: 'nothingyoucoulddo';
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    font-weight: 200;
+    font-size: x-large;
     bottom: -3px;
 }
 #pricingphotos {
