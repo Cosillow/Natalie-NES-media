@@ -23,10 +23,11 @@ h1 {
 
 #photo-grid {
   width: 75%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
   grid-gap: 5px;
   align-items: center;
+  max-width: max-content;
 }
 
 

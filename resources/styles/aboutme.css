@@ -4,14 +4,15 @@
   align-items: center;
   min-height: calc(100vh - var(--header-height));
   position: relative;
-  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/pink.png");
+  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/paperbckgrnd.png");
   background-attachment: local;
+  margin-bottom: -340px;
 }
 
 #arrow1{
-  margin-left: -225px;
+  margin-left: -260px;
   margin-top: 90px;
-  max-block-size: 150px;
+  max-block-size: 130px;
   transform: rotate(10deg);
   float:left
 }
@@ -19,12 +20,13 @@
 
 
 #aboutmehead{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 90px;
   font-family: 'nothingyoucoulddo';
   letter-spacing: 2px;
   text-transform: lowercase;
   font-weight: 200;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -55,10 +57,12 @@ h1 {
   max-width: 200px;
   max-height: 260px;
   margin-left: 85px;
-  margin-right: 10px;
+  margin-right: 15px;
   margin-bottom: 0px;
   margin-top: 15px;
-  
+  transform: rotate(-1deg);
+  box-shadow: 3px 3px 6px;
+
 
 }
 
@@ -104,41 +108,64 @@ h1 {
   font-size: 50px;
   text-align: center;
  }
+ #arrow2{
+   margin-left: -920px;
+   margin-right: 330px;
+  margin-top: -70px;
+  max-block-size: 170px;
+  float:right
+
+
+}
 
  #associates{
-   background-image: url(/resources/img/blue.png);
+   background-image: url(/resources/img/paperbckgrnd.png);
    background-size: cover;
    padding-bottom: 100px;
-   margin-bottom: -20px;
+   margin-bottom: -340px;
    margin-top: -42px;
  }
 
 
  #auggie-photo{
    float: left;
-   max-height: 390px;
-   max-width: 300px;
-   border-radius: 50%;
-   margin-left: 50px;
- }
+   max-height: 250px;
+   max-width: 200px;
+   margin-left: 70px;
+   margin-right: 20px;
+   margin-top: -110px;
+   transform: rotate(1deg);
+   box-shadow: 3px 3px 6px;
 
+   
+ }
+  #arrow3{
+    float: left;
+    max-block-size: 190px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-right: -820px;
+    transform: scaleX(-1);
+  }
  #hannah-photo{
    float: right;
-   max-height: 390px;
-   max-width: 300px;
+   max-height: 250px;
+   max-width: 200px;
    margin: 20px;
-   margin-top: -40px;
-   margin-right: 50px;
-   border-radius: 50%;
+   margin-top: -30px;
+   margin-right: 70px;
+   margin-left: 20px;
+   transform: rotate(-1deg);
+   box-shadow: 3px 3px 6px;
  }
  #hannah-name{
   font-family: var(--font-nunito) ;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 30px;
   text-align: right;
-  margin-top: 60px;
+  margin-top: 80px;
  }
 
  #auggie-name{
@@ -146,7 +173,7 @@ h1 {
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 30px;
   text-align: left;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -158,6 +185,7 @@ h1 {
   text-align: right;
   margin-top: 5px;
   font-style: italic;
+  font-size: 20px;
  }
 
  #auggie-desc{
@@ -165,6 +193,7 @@ h1 {
   text-align: left;
   margin-top: -5px;
   font-style: italic;
+  font-size: 20px;
  }
 
 
