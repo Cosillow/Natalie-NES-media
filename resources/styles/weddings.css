@@ -10,11 +10,12 @@ h1 {
   margin: 0;
   text-align: center;
   color: rgb(0, 0, 0);
-  font-family: var(--font-nunito-) ;
+  font-family: 'nothingyoucoulddo' ;
   font-weight: 100;
   letter-spacing: 4px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-top: -140px;
+  font-size: xx-large;
 }
 
 
