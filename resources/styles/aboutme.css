@@ -111,9 +111,11 @@ h1 {
  #arrow2{
    margin-left: -920px;
    margin-right: 330px;
+   size: 70%;
   margin-top: -70px;
   max-block-size: 170px;
   float:right
+  
 
 
 }
@@ -129,11 +131,11 @@ h1 {
 
  #auggie-photo{
    float: left;
-   max-height: 250px;
-   max-width: 200px;
-   margin-left: 70px;
+   max-height: 375px;
+   max-width: 300px;
+   margin-left: 300px;
    margin-right: 20px;
-   margin-top: -110px;
+   margin-top: 80px;
    transform: rotate(1deg);
    box-shadow: 3px 3px 6px;
 
@@ -146,54 +148,21 @@ h1 {
     margin-top: 30px;
     margin-right: -820px;
     transform: scaleX(-1);
+    size: 70%;
   }
  #hannah-photo{
    float: right;
-   max-height: 250px;
-   max-width: 200px;
+   max-height: 375px;
+   max-width: 300px;
    margin: 20px;
-   margin-top: -30px;
-   margin-right: 70px;
+   margin-top: 80px;
+   margin-right: 300px;
    margin-left: 20px;
    transform: rotate(-1deg);
    box-shadow: 3px 3px 6px;
  }
- #hannah-name{
-  font-family: var(--font-nunito) ;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 30px;
-  text-align: right;
-  margin-top: 80px;
- }
-
- #auggie-name{
-  font-family: var(--font-nunito) ;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 30px;
-  text-align: left;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  
- }
  
- #hannah-desc{
-  font-family: var(--font-nunito) ;
-  text-align: right;
-  margin-top: 5px;
-  font-style: italic;
-  font-size: 20px;
- }
+ 
 
- #auggie-desc{
-  font-family: var(--font-nunito) ;
-  text-align: left;
-  margin-top: -5px;
-  font-style: italic;
-  font-size: 20px;
- }
 
 
