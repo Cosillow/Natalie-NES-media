@@ -1,4 +1,9 @@
-
+#bodypricing{
+  background-image:url(resources/img/pricephotos.jpg);
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: cover;
+}
 #header-pricing{
 
     text-align: center;
