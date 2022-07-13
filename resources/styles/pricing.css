@@ -1,9 +1,10 @@
-#bodypricing{
-  background-image:url(resources/img/pricingbckgrnd.jpg);
-background-attachment: scroll;
-background-repeat: no-repeat;
-background-size: cover;
-}
+ #bodypricing{
+  background-image:url(resources/img/paperbckgrnd.png);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
 #header-pricing{
 
     text-align: center;
@@ -108,7 +109,6 @@ background-size: cover;
     text-transform: uppercase;
     letter-spacing: 4px;
     position: relative;
-    background-image: url(resources/img/priceweddings.jpg);
-    background-attachment: local;
-    background-size: cover;
+    margin-bottom: -410px;
+   
     }

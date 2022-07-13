@@ -1,0 +1,100 @@
+
+
+
+
+
+/* videos */
+
+
+body{
+  background-attachment:fixed;
+  background-size: cover;
+  background-image:url("/resources/img/wedding.jpg")
+  
+}
+#wedding-section {
+  min-height: calc(100vh - var(--header-height));
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url("/resources/img/pinkdark.png")
+}
+
+h1{
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'nothingyoucoulddo';
+  letter-spacing: 10px;
+  text-transform: lowercase;
+  font-weight: 200;
+  font-size: x-large;
+}
+
+#videos {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 25px;
+
+  /* gap: 50px; */
+}
+
+.size {
+  margin-bottom: 50px;
+  flex-basis: 40%;
+  min-width: 200px;
+  border-style: groove;
+  border-width: 5px;
+  color: white;
+}
+
+
+
+#promos-section {
+  min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--header-height));
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url("/resources/img/bluedark.png")
+  
+}
+
+
+h2{
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'nothingyoucoulddo';
+  letter-spacing: 10px;
+  text-transform: lowercase;
+  font-weight: 200;
+  font-size: x-large;
+}
+
+
+
+#promovideos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  /* gap: 30px; */
+
+}
+
+.size {
+  margin-bottom: 50px;
+  flex-basis: 40%;
+  min-width: 200px;
+}
+
+#description {
+  /* padding is based on the flex basis 40% in .size */
+  padding: 0 13.333%;
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+
+}
+

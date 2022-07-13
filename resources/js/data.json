@@ -1,7 +1,7 @@
 {
   "header":
     {
-      "nav-logo" : "./resources/img/logo-dark.png", "home" : "./index.html", "about me" : "./aboutme.html", "promos" : "./promos.html", "photography" : "./photography.html", "weddings" : "./weddings.html", "pricing": ".pricing.html"
+      "nav-logo" : "./resources/img/logo-dark.png", "home" : "./index.html", "about me" : "./aboutme.html", "videos" : "./videos.html", "photography" : "./photography.html", "weddings" : "./weddings.html", "pricing": ".pricing.html"
     },
 
   "footer":

@@ -42,35 +42,5 @@ h1 {
 }
 
 /* pricing */
-h2 {
-  
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-family: 'nothingyoucoulddo';
-  letter-spacing: 2px;
-  text-transform: lowercase;
-  font-weight: 200;
-  font-size: x-large;
-  color: rgb(255, 255, 255);
-}
-p{
-  text-align: center;
-  color: white;
-}
-
-#pricing summary {
-  /* --margin-top: 100px; */
-  text-align: center;
-  padding: 0 15%;
-  color:rgb(255, 255, 255)
 
 
-}
-
-
-#price-table {
-  margin: 0 auto;
-  color: white;
-  font-family: var(--nunito);
-}
