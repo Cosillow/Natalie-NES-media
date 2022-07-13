@@ -1,5 +1,5 @@
 #bodypricing{
-  background-image:url(resources/img/pricephotos.jpg);
+  background-image:url(resources/img/pricingbckgrnd.jpg);
 background-attachment: scroll;
 background-repeat: no-repeat;
 background-size: cover;
@@ -21,9 +21,7 @@ background-size: cover;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-top: -20px;
-    background-image: url(resources/img/pricephotos.jpg);
-    background-attachment: local;
-    background-size: cover;
+ 
   }
   
   #see-pricing {
