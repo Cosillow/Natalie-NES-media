@@ -161,8 +161,37 @@ h1 {
    transform: rotate(-1deg);
    box-shadow: 3px 3px 6px;
  }
+
+ #section2 {
+   margin-top: 340px;
+   margin-bottom: -300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url("/resources/img/bluedark.png")
+ }
  
  
+#email{
+ text-align: center;
+ color: white;
+}
+#socials{
+  text-align: center;
+  color: white;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+}
 
 
+ h2{
+  margin-bottom: 30px;
+  font-family: 'nothingyoucoulddo';
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-weight: 200;
+  font-size: 50px;
+  position: relative;
+  color: white;
+  text-align: center;
+ }
 

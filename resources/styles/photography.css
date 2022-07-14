@@ -67,13 +67,59 @@ margin-top: 30px;
   font-family: var(--font-nunito);
   font-weight: 100;
   text-transform: uppercase;
+  margin-bottom: -110px;
 }
 
-#description, h2 {
+#description{
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  text-align: center;
+  position: relative;
+  font-family: 'nothingyoucoulddo';
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  text-transform: lowercase;
+  color: white;
+}
+
+#pricingphotos {
+  margin-top: 340px;
+  margin-bottom: -300px;
+ background-attachment: fixed;
+ background-size: cover;
+ background-image:url("/resources/img/pinkdark.png");
+  font-family: var(--font-nunito);
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 10px;
+  color: white;
+}
+
+#description-photos{
   text-align: center;
   position: relative;
   font-family: var(--font-nunito);
   font-weight: 100;
-  margin-top: 80px;
-  margin-bottom: 30px;
+  font-style: italic; 
+  margin-left: 205px;  
+  margin-right: 205px;
+  text-transform: none;
+  letter-spacing: normal;
+  color: white;
+   padding-bottom: 70px;
 }
+#pricing-table1 {
+  margin-top: -30px;
+    margin: 0 auto;
+    font-family: var(--font-nunito);
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+
+  }
