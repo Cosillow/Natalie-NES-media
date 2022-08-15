@@ -13,12 +13,8 @@
 
   --header-height: 95px;
   --font-caveat:'caveat'
-
-
-  
-
-
 }
+
 *,
 *::before,
 *::after {
@@ -28,7 +24,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
+  min-width: 100vw;
   scroll-behavior: smooth;
 }
 
@@ -103,7 +99,7 @@ header ul {
   left: 0;
   right: 0;
 }
-ul li:not(:last-child)::after{
+/* ul li:not(:last-child)::after{
   content:""; 
   border:1px solid #e2e2e2;
   border-width: 1px 1px 0 0;
@@ -111,7 +107,7 @@ ul li:not(:last-child)::after{
   right:-3px; 
   top:0; 
   height:100%;
-}
+} */
 
 #menu a, #menu li {
   width: max-content;
@@ -171,9 +167,9 @@ ul li:not(:last-child)::after{
     display: inline-block;
   }
   
-  ul li:not(:last-child):after {
+  /* ul li:not(:last-child):after {
     content: "|";
-    }
+  } */
 
   #close-modal {
     display: block;
