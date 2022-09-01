@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-@import url(/Users/nataliesheehy/Downloads/Natalie-NES-media/resources/fonts/Caveat-VariableFont_wght.ttf);
-@import url('https://fonts.googleapis.com/css2?family=NothingYouCouldDo-Regular');
+@import url('/resources/fonts/Caveat-VariableFont_wght.ttf');
+
 :root {
   --clr-accent: #7cfeff;
   --clr-accent-secondary: #ff75fc;
@@ -43,14 +43,11 @@ img {
 /* header styling */
 header {
   --navlogo-size: 200px;
-
-  /* background: rgb(169, 169, 236); */
   width: 100%;
   height: var(--header-height);
   margin: 0;
   position: relative;
   top: 0;
-  /* border-bottom: 1px solid var(--clr-accent); */
   background: transparent;
   z-index: 999;
 }
@@ -99,15 +96,6 @@ header ul {
   left: 0;
   right: 0;
 }
-/* ul li:not(:last-child)::after{
-  content:""; 
-  border:1px solid #e2e2e2;
-  border-width: 1px 1px 0 0;
-  position:absolute; 
-  right:-3px; 
-  top:0; 
-  height:100%;
-} */
 
 #menu a, #menu li {
   width: max-content;
@@ -166,10 +154,6 @@ header ul {
   ul li {
     display: inline-block;
   }
-  
-  /* ul li:not(:last-child):after {
-    content: "|";
-  } */
 
   #close-modal {
     display: block;
@@ -185,15 +169,6 @@ header ul {
   #close-modal:hover, #hamburger-button:hover {
     opacity: .8;
   }
-
-  /* #menu ul:before {
-    content: '';
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    background: rgba(109, 109, 109, 0.301);
-    z-index: -1;
-  } */
 }
 
 /* footer stlyling */
@@ -209,7 +184,6 @@ footer {
   font-weight: 100px;
   letter-spacing: 4px;
   color: white;
-  ;
 }
  
 footer{
@@ -253,9 +227,6 @@ footer nav {
   width: 75%;
   justify-content: center;
   margin-top: -5px;
-
-  
-  /* margin-top: 20px; */
 }
 
 .social-link {
