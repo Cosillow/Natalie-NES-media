@@ -39,28 +39,28 @@ body {
 }
 
 h1 {
-
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;;
   margin-bottom: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-transform: lowercase;
-  font-weight: 200;
-  font-size: 50px;
+  font-weight: 100;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: uppercase;
   position: relative;
+  color: aliceblue;
 
 }
 
 
 #natalie-photo {
   float: left;
-  max-width: 200px;
-  max-height: 260px;
+  max-width: 400px;
   margin-left: 85px;
   margin-right: 15px;
   margin-bottom: 0px;
   margin-top: 15px;
-  transform: rotate(-1deg);
-  box-shadow: 3px 3px 6px;
-
 
 }
 
@@ -74,6 +74,7 @@ h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 150;
   letter-spacing: 1px;;
+  font-style: oblique ;
   
 }
 #description2{
@@ -86,6 +87,8 @@ h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 150;
   letter-spacing: 1px;;
+  font-style: oblique ;
+
 
 }
 #description3{
@@ -98,6 +101,8 @@ h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 150;
   letter-spacing: 1px;;
+  font-style: oblique ;
+
 
 }
 #description4{
@@ -109,7 +114,9 @@ h1 {
   color: aliceblue;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 150;
-  letter-spacing: 1px;;
+  letter-spacing: 1px;
+  font-style: oblique ;
+
 
 }
 
