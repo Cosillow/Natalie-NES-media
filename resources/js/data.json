@@ -1,11 +1,9 @@
 {
   "header":
     {
-      "nav-logo" : "./resources/img/logo-dark.png", "home" : "./index.html", "about me" : "./aboutme.html", "videos" : "./videos.html", "photography" : "./photography.html"
+       "home" : "./index.html", "about me" : "./aboutme.html", "videos" : "./videos.html", "photography" : "./photography.html"
     },
 
   "footer":
-    {
-      "socials": [{"handle": "nes.media", "link": "#", "icon": "fab fa-tiktok"}, {"handle": "n.e.s.media", "link": "#", "icon": "fab fa-instagram"}, {"handle": "nes_media_", "link": "#", "icon": "fab fa-twitter"}, {"handle": "603.809.0665", "link": "#", "icon": "fas fa-phone"}, {"handle": "nes.media.llc@gmail.com", "link": "mailto:nes.media.llc@gmail.com", "icon": "fas fa-envelope"}]
+    { }
     }
-}

@@ -4,7 +4,6 @@
   align-items: center;
   min-height: calc(100vh - var(--header-height));
   position: relative;
-  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/paperbckgrnd.png");
   background-attachment: local;
   margin-bottom: -340px;
 }
@@ -22,7 +21,7 @@
 #aboutmehead{
   margin-bottom: 10px;
   margin-top: 90px;
-  font-family: 'nothingyoucoulddo';
+  font-family:'Times New Roman', Times, serif;
   letter-spacing: 2px;
   text-transform: lowercase;
   font-weight: 200;
@@ -32,7 +31,7 @@
 
 body {
   background-attachment: fixed;
-  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("/resources/img/aboutme.jpg");
+  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("/resources/img/blackbackground.jpg");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +41,6 @@ body {
 h1 {
 
   margin-bottom: 30px;
-  font-family: 'nothingyoucoulddo';
   letter-spacing: 2px;
   text-transform: lowercase;
   font-weight: 200;
@@ -72,6 +70,11 @@ h1 {
   margin-left: 95px;
   line-height: 25px;
   text-indent: 10px;
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 150;
+  letter-spacing: 1px;;
+  
 }
 #description2{
   text-align: left;
@@ -79,7 +82,10 @@ h1 {
   margin-left: 95px;
   line-height: 25px;
   text-indent: 10px;
-
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 150;
+  letter-spacing: 1px;;
 
 }
 #description3{
@@ -88,7 +94,10 @@ h1 {
   margin-left: 95px;
   line-height: 25px;
   text-indent: 10px;
-
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 150;
+  letter-spacing: 1px;;
 
 }
 #description4{
@@ -97,71 +106,14 @@ h1 {
   margin-left: 95px;
   line-height: 25px;
   text-indent: 10px;
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 150;
+  letter-spacing: 1px;;
 
 }
 
- #meet-my-associates-head{
-  font-family: 'nothingyoucoulddo';
-  letter-spacing: 2px;
-  text-transform: lowercase;
-  font-weight: 200;
-  font-size: 50px;
-  text-align: center;
- }
- #arrow2{
-   margin-left: -920px;
-   margin-right: 330px;
-   size: 70%;
-  margin-top: -70px;
-  max-block-size: 170px;
-  float:right
-  
-
-
-}
-
- #associates{
-   background-image: url(/resources/img/paperbckgrnd.png);
-   background-size: cover;
-   padding-bottom: 100px;
-   margin-bottom: -340px;
-   margin-top: -42px;
- }
-
-
- #auggie-photo{
-   float: left;
-   max-height: 375px;
-   max-width: 300px;
-   margin-left: 300px;
-   margin-right: 20px;
-   margin-top: 80px;
-   transform: rotate(1deg);
-   box-shadow: 3px 3px 6px;
-
-   
- }
-  #arrow3{
-    float: left;
-    max-block-size: 190px;
-    margin-left: 300px;
-    margin-top: 30px;
-    margin-right: -820px;
-    transform: scaleX(-1);
-    size: 70%;
-  }
- #hannah-photo{
-   float: right;
-   max-height: 375px;
-   max-width: 300px;
-   margin: 20px;
-   margin-top: 80px;
-   margin-right: 300px;
-   margin-left: 20px;
-   transform: rotate(-1deg);
-   box-shadow: 3px 3px 6px;
- }
-
+ 
  #section2 {
    margin-top: 340px;
    margin-bottom: -300px;

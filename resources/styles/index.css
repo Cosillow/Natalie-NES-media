@@ -5,12 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: azure;
   
 }
 
 body {
   background-attachment: fixed;
-  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/sunset2.jpg");
+  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/blackbackground.jpg");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,6 +39,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 #hero-section h1 span {
@@ -48,7 +50,7 @@ body {
 @media all and (max-width: 550px) {
   #hero-section h1 {
     flex-direction: column;
-    font-size: 18px;
+    font-size: 30px;
   }
 
   #hero-section h1 span {

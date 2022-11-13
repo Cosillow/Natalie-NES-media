@@ -97,7 +97,7 @@ $(document).ready(function() { // after everything in html loads
       footer.append(nav);
       // create heading
       var h2 = document.createElement('h2');
-      h2.innerHTML = "Contact Me";
+      
   
       h2.id = "footer-heading";
       footer.prepend(h2);

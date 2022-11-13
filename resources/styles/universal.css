@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 @import url('/resources/fonts/Caveat-VariableFont_wght.ttf');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+
 
 :root {
   --clr-accent: #7cfeff;
@@ -12,7 +15,9 @@
   --weight-nunito-bold: 700;
 
   --header-height: 95px;
-  --font-caveat:'caveat'
+
+  --font-inconsolata:var(--font-inconsolata)
+
 }
 
 *,
@@ -50,6 +55,7 @@ header {
   top: 0;
   background: transparent;
   z-index: 999;
+  color: aliceblue;
 }
 
 #nav-logo {
@@ -60,6 +66,7 @@ header {
   cursor: pointer;
   position: relative;
   z-index: 1;
+  color: white;
 }
 
 header > nav > ul {
@@ -72,6 +79,7 @@ header ul {
   padding: 0;
   list-style: none;
   height: 100%;
+  color: aliceblue;
 }
 
 #hamburger-button {
@@ -107,7 +115,8 @@ header ul {
 #menu a {
   text-decoration: none;
   text-transform:uppercase;
-  color: black;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
   padding: 0 1em;
 }
 
@@ -187,7 +196,7 @@ footer {
 }
  
 footer{
-  background-image: url("/resources/img/blackbackground.jpg");
+
   opacity: 80%;
   background-size: cover;
   background-repeat: repeat;
@@ -198,17 +207,7 @@ footer{
 
 
 
-#footer-heading {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: 'nothingyoucoulddo';
-  letter-spacing: 2px;
-  text-transform: lowercase;
-  font-weight: 200;
-  font-size: x-large;
-  margin-top: 190px;
-  padding-top: 20px;
-}
+
 
 footer nav {
   margin-top: 10px;
