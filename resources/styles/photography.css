@@ -3,23 +3,25 @@
   width: 100%;
 }
 body {
-  background-position: relative;
-  background-position-y: -700px;
   background-attachment: fixed;
+  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("../img/blackbackground.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-image:url("/resources/img/photob.jpg")
 
 }
 
 h1 {
-  font-family: 'nothingyoucoulddo';
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   letter-spacing: 2px;
-  text-transform: lowercase;
-  font-weight: 200;
-  font-size: x-large;
+  text-transform: uppercase;
+  font-style: italic ;
+  font-weight: 100;
   text-align: center ;
   font-size: x-large;
   margin-bottom: 80px;
+  color: aliceblue;
 }
 
 #photo-grid {
@@ -34,38 +36,29 @@ h1 {
 
 #pricing {
   min-height: 100vh;
-  font-family: var(--font-nunito);
-  font-weight: 100;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
-#see-pricing {
-
-  /* width: 100px; */
-  z-index: 98;
-  display: block;
-
-  padding: 1em;
   text-align: center;
-  font-family: var(--font-nunito);
+  position: relative;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: var(--font-nunito);
-  font-weight: 100;
+  font-style: italic; 
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+
+
 
 
 /* pricing */
 #pricing-table {
 margin-top: 30px;
   margin: 0 auto;
-  font-family: var(--font-nunito);
+  text-align: center;
+  position: relative;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  font-style: italic; 
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: -110px;
@@ -77,14 +70,16 @@ margin-top: 30px;
 }
 
 h2 {
-  text-align: center;
   position: relative;
-  font-family: 'nothingyoucoulddo';
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  font-style: italic; 
   font-weight: 100;
   font-size: 30px;
   margin-top: -30px;
   margin-bottom: 30px;
-  text-transform: lowercase;
+  text-transform: uppercase
   color: white;
 }
 
@@ -92,9 +87,12 @@ h2 {
   margin-top: 340px;
   margin-bottom: -300px;
  background-attachment: fixed;
- background-size: cover;
- background-image:url("/resources/img/pinkdark.png");
-  font-family: var(--font-nunito);
+ text-align: center;
+ position: relative;
+ text-align: center;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 100;
+ font-style: italic; 
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -103,10 +101,9 @@ h2 {
 }
 
 #description-photos{
-  text-align: center;
   position: relative;
-  font-family: var(--font-nunito);
-  font-weight: 100;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic; 
   margin-left: 205px;  
   margin-right: 205px;
@@ -118,7 +115,12 @@ h2 {
 #pricing-table1 {
   margin-top: -30px;
     margin: 0 auto;
-    font-family: var(--font-nunito);
+    text-align: center;
+    position: relative;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: italic; 
     font-weight: 100;
     text-transform: uppercase;
     color: white;

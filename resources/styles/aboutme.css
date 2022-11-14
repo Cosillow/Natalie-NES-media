@@ -43,7 +43,6 @@ h1 {
   letter-spacing: 1px;;
   margin-bottom: 30px;
   letter-spacing: 4px;
-  text-transform: lowercase;
   font-weight: 100;
   font-size: 30px;
   font-style: italic;
@@ -125,9 +124,11 @@ h1 {
  #section2 {
    margin-top: 340px;
    margin-bottom: -300px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image:url("/resources/img/bluedark.png")
+  color: aliceblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;;
+  font-style: oblique ;
  }
  
  
