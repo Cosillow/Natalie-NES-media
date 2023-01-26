@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url('resources/fonts/futura');
 
-
-
-
 :root {
   --clr-accent: #7cfeff;
   --clr-accent-secondary: #ff75fc;
@@ -32,8 +29,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  min-width: 100vw;
-  scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
@@ -41,6 +37,12 @@ body {
   position: relative;
   font-family: var(--font-nunito);
   font-weight: var(--weight-nunito-regular);
+
+  background-attachment: fixed;
+  background-image: linear-gradient(0deg, rgba(53, 17, 17, 0.082), rgba(0, 0, 0, 0.192)), url("/resources/img/blackbackground.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {
@@ -184,7 +186,7 @@ header ul {
 }
 
 /* footer stlyling */
-footer {
+/* footer {
   --footer-height: 150px;
   position: absolute;
   justify-content: center;
@@ -252,14 +254,13 @@ footer nav {
 }
 
 @media all and (max-width: 400px) {
-  /* odd social media behavior at small screen sizes */
   #social-list {
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-bottom: 20px;
   }
-}
+} */
 
 /* universal classes */
 .iframe-container {

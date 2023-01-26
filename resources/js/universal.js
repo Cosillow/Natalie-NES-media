@@ -74,34 +74,34 @@ $(document).ready(function() { // after everything in html loads
       document.body.prepend(header);
       // footer
       // ***************************************************
-      var nav = document.createElement('nav');
-      var ul = document.createElement('ul');
-      ul.id = "social-list";
-      $.each(responseData.footer.socials, function(i, social) {
-        var li = document.createElement('li');
-        li.className = "social-list";
-        var a = document.createElement('a');
-        a.className = "social-link";
-        var i = document.createElement('i');
-        i.classList = social.icon;
-        a.href = social.link;
-        a.append(i);
-        var span = document.createElement('span');
-        span.append(social.handle);
-        a.append(span);
-        li.append(a);
-        ul.append(li);
-      });
-      nav.append(ul);
-      var footer = document.createElement('footer');
-      footer.append(nav);
-      // create heading
-      var h2 = document.createElement('h2');
+      // var nav = document.createElement('nav');
+      // var ul = document.createElement('ul');
+      // ul.id = "social-list";
+      // $.each(responseData.footer.socials, function(i, social) {
+      //   var li = document.createElement('li');
+      //   li.className = "social-list";
+      //   var a = document.createElement('a');
+      //   a.className = "social-link";
+      //   var i = document.createElement('i');
+      //   i.classList = social.icon;
+      //   a.href = social.link;
+      //   a.append(i);
+      //   var span = document.createElement('span');
+      //   span.append(social.handle);
+      //   a.append(span);
+      //   li.append(a);
+      //   ul.append(li);
+      // });
+      // nav.append(ul);
+      // var footer = document.createElement('footer');
+      // footer.append(nav);
+      // // create heading
+      // var h2 = document.createElement('h2');
       
   
-      h2.id = "footer-heading";
-      footer.prepend(h2);
-      document.body.append(footer);
+      // h2.id = "footer-heading";
+      // footer.prepend(h2);
+      // document.body.append(footer);
     }, error: function(msg) {
       alert("There was a problem: " + msg.status + " " + msg.statusText);
     }
