@@ -1,9 +1,9 @@
 {
-  "header":
-    {
-       "home" : "./index.html", "about me" : "./aboutme.html", "videos" : "./videos.html", "photography" : "./photography.html"
-    },
-
-  "footer":
-    { }
-    }
+  "header": {
+    "home": "./index.html",
+    "about me": "./aboutme.html",
+    "videos": "./videos.html",
+    "photography": "./photography.html"
+  },
+  "footer": {}
+}
