@@ -23,9 +23,12 @@
 #description-weddings,
 #description-promos {
   text-align: center;
-  padding: 0 100px;
+  padding: 0 2em;
   line-height: 25px;
   font-weight: lighter;
   letter-spacing: 1px;
-  font-size: 15px;
+}
+
+#description-weddings {
+  margin-bottom: 4em;
 }
