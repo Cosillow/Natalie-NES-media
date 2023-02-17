@@ -10,7 +10,7 @@ function loadPictures() {
     $.ajax({
         url: "./resources/js/imgLocations.txt",
         success: function (data) {
-            const images = data.split("\r\n").filter(i => i);
+            const images = data.split("\r").filter(i => i);
             console.log(data)
             console.log(images)
             let photoGrid = document.getElementById("photo-grid");
