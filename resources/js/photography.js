@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 
-let dir = "./resources/img/photography/";
+let dir = "../resources/img/photography/";
 function loadPictures() {
     // look through the photography directory and insert img's into DOM
     $.ajax({

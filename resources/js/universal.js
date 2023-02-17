@@ -1,7 +1,7 @@
 // add favicon to all pages
 // <link rel="icon" type="image/png" href="./resources/img/logo-light.png"/>
 let fav = document.createElement('link');
-fav.href = "./resources/img/logo-dark.png";
+fav.href = "../resources/img/logo-dark.png";
 fav.type = "image/png";
 fav.rel = "icon";
 document.head.append(fav);
@@ -14,7 +14,7 @@ $(document).ready(function () { // after everything in html loads
 function writeHeader() {
   $.ajax({
     type: "GET",
-    url: "./resources/js/data.json",
+    url: "../resources/js/data.json",
     dataType: "json",
     cache: "false",
     success: function (responseData, status) {
