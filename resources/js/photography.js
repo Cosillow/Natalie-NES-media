@@ -11,8 +11,13 @@ function loadPictures() {
         url: "./resources/js/imgLocations.txt",
         success: function (data) {
             const images = data.split("\r").filter(i => i);
-            console.log(data)
-            console.log(images)
+        
+            console.log(data.split("\r").filter(i => i));
+            console.log(data.split("\n\r").filter(i => i));
+            console.log(data.split("\r\n").filter(i => i));
+            console.log(data.split("\n").filter(i => i));
+
+
             let photoGrid = document.getElementById("photo-grid");
             for (const image of images) {
                 let img = document.createElement("img");
