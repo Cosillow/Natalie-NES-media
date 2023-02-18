@@ -1,7 +1,12 @@
 # Natalie-NES-media
 
-in order to get all images in /resources/img/photography will be dynamically displayed on the photography page...
+## how to index photos
+open termianal in root directory and run:
 
-open termianal in root directory and run...
+./photo.sh > ./resources/js/imgLocations.json
 
-./photo.bat
+
+### issues
+if you run into a permissions issue, run this first:
+
+chmod +x ./photo.sh
