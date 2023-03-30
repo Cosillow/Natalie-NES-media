@@ -55,7 +55,7 @@ function writeFooter(excludes = []) {
   if (!excludes.includes(currentPage)) {
     console.log("this page should have a footer");
     // this page should have a footer
-    const footerStr = '<h2>lets Chat</h2><p id="email">For all inquiries regarding photo, video, or editing services, please email me at nes.media.llc@gmail.com or give me a call at 603.809.0665</p><p id="socials">Keep up with me on Instagram @n.e.s.media and TikTok @nes.media</p>'
+    const footerStr = '<h2>lets Chat</h2><p id="email">For all inquiries regarding photo, video, or editing services, please email me at nes.media.llc@gmail.com or give me a call at 603.809.0665</p><p id="socials">Keep up with me on Instagram @nes.media.llc and TikTok @nes.media</p>'
     const footer = $("<footer>").html(footerStr);
     $("body").append(footer);
   }
