@@ -1,0 +1,1 @@
+dir resources\img\photography /b /a-d > resources\js\imgLocations.txt
