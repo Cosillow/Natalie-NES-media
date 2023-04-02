@@ -1,12 +1,18 @@
 # Natalie-NES-media
 
 ## how to index photos
-open termianal in root directory and run:
+*Everything must be a .jpg labeled as such*
 
-./photo.sh > ./resources/js/imgLocations.json
+### setup for first time:
+MAC      --> install brew and then $ brew install jpegoptim
+Ubuntu   --> $ sudo apt-get jpgoptim    
 
+
+### after set up
+run this file in your terminal in the root directory with the aimed-for file size 1Mb is around the sweet spot, but maybe go lower
+    $ ./new-photos.sh 1000
+**Make sure you take a look in live server that the quality was acceptable (if not, lower the number in the command above^^)**
 
 ### issues
 if you run into a permissions issue, run this first:
-
-chmod +x ./photo.sh
+    $ chmod +x ./*.sh

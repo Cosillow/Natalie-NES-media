@@ -2,7 +2,7 @@ $(document).ready(function () {
     loadPictures();
 });
 
-const dir = "./resources/img/photography/";
+const dir = "./resources/img/photography/optimized/";
 
 function loadPictures() {
     // look through the imgLocations.txt and insert img's into DOM
