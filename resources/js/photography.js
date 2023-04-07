@@ -4,8 +4,8 @@ $(document).ready(function () {
 
 
 
-const dir = "./resources/img/photography/"; 
-=======
+
+
 const dir = "./resources/img/photography/";
 
 function loadPictures() {
