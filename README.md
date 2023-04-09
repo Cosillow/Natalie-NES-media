@@ -4,7 +4,7 @@
 *Everything must be a .jpg labeled as such*
 
 ### setup for first time:
-MAC      --> install homebrew (https://brew.sh/) and then $ brew install jpegoptim
+MAC      --> install homebrew (https://brew.sh/) and then $ brew install jpegoptimb
 Ubuntu   --> $ sudo apt-get jpgoptim    
 
 
